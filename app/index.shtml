@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DEI</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Open+Sans:300,400,600,700,800" rel="stylesheet">
+</head>
+<body>
+   <header class="header-bar">
+      <nav class="nav-bar no-padding" data-module="nav-bar">
+           <div class="container">
+               <div class="nav-bar__holder">
+                   <div class="nav-bar__brand">
+                       <a href="index.html" class="app-brand app-brand--inline">
+                           <img class="app-brand__logo" src="images/logos/puc-white.svg" alt="Logo" >
+                       </a>
+                   </div>
+                   <div class="nav-bar__body" data-role="nav-body">
+                       <button class="nav-bar__deploy-button" aria-label="Ver menú" data-role="nav-deployer" >
+                           <span></span>
+                       </button>
+                       <div class="nav-bar__menu-holder">
+                         <ul class="nav-bar__menu nav-bar__menu--up">
+                            <li class="menu-item menu-item--has-submenu">
+                              <a href="#" title="ejemplo" >La Universidad</a>
+                              <ul class="submenu">
+                                 <li class="submenu__item"><a title="ejemplo" href="#">Submenu Item</a></li>
+                                 <li class="submenu__item"><a title="ejemplo" href="#">Submenu Item</a></li>
+                              </ul>
+                            </li>
+                            <li class="menu-item menu-item--has-submenu">
+                              <a href="#" title="ejemplo" >Facultades</a>
+                              <ul class="submenu">
+                                 <li class="submenu__item"><a title="ejemplo" href="#">Submenu Item</a></li>
+                                 <li class="submenu__item"><a title="ejemplo" href="#">Submenu Item</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#" title="ejemplo" >Organizaciones vinculadas</a></li>
+                            <li><a href="#" title="ejemplo" >Bibliotecas</a></li>
+                            <li><a href="#" title="ejemplo" > title="ejemplo" ES-EN</a></li>
+                            <li><a href="#" title="ejemplo" >Mi Portal UC</a></li>
+                            <li class="menu-item menu-item--has-submenu">
+                              <a href="#"title="ejemplo" >Correo UC</a>
+                              <ul class="submenu">
+                                 <li class="submenu__item"><a title="ejemplo" href="#">Submenu Item</a></li>
+                                 <li class="submenu__item"><a title="ejemplo" href="#">Submenu Item</a></li>
+                              </ul>
+                            </li>
+                         </ul>
+                           <ul class="nav-bar__menu nav-bar__menu--primary">
+                              <li class="menu-item" data-role="touch-submenu" >
+                                <a title="ejemplo" class="menu-item__link" href="portadilla.html" data-role="touch-submenu-deployer">Sobre el Observatorio</a>
+                             </li>
+                              <li class="menu-item menu-item--has-submenu" data-role="touch-submenu" >
+                                <a title="ejemplo" class="menu-item__link" href="#" data-role="touch-submenu-deployer">Epidemiologia</a>
+                                <ul class="submenu" >
+                                   <li class="submenu__item"><a title="ejemplo" href="programa.html">Programa carrera</a></li>
+                                   <li class="submenu__item"><a title="ejemplo" href="#">Ipsum</a></li>
+                                </ul>
+                             </li>
+
+                        <li class="menu-item">
+                          <a title="ejemplo" class="menu-item__link" href="contacto.html">Plaza Pública</a>
+                       </li>
+                           </ul>
+                           <ul class="nav-bar__menu nav-bar__menu--secondary">
+                              <li class="menu-item">
+                                <a href="#" class="menu-item__link" title="title" data-role="touch-submenu-deployer">Al día</a>
+                              </li>
+                              <li class="menu-item">
+                                <a href="#" class="menu-item__link" title="title" data-role="touch-submenu-deployer">Educación continua</a>
+                              </li>
+                              <li class="menu-item">
+                                <a href="#" class="menu-item__link" title="title" data-role="touch-submenu-deployer">Contacto</a>
+                              </li>
+
+                              <li class="menu-item menu-item__search menu-item__hide">
+                                   <a href="#" class="menu-item__link" id="buscar" title="title"><span class="text-btn">Búsqueda</span> <span class="icon-elem icon-elem--search"></span></a>
+                              </li>
+                           </ul>
+                           <div class="search-box search-box--mobile">
+                              <div class="container">
+                                   <form action="" class="gridle-row">
+                                       <div class="gridle-gr-10 gridle-gr-12@tablet">
+                                           <input type="text" class="form-control__field" placeholder="¿Qué estás buscando?">
+                                       </div>
+                                       <div class="gridle-gr-2 gridle-gr-12@tablet no-padding--top_tablet">
+                                           <button class="button button--blue button--full-width no-margin">
+                                               Buscar <span class="icon-elem icon-elem--search"></span>
+                                           </button>
+                                       </div>
+                                   </form>
+                              </div>
+                           </div>
+                           <div class="nav-bar__auxmenu" data-area-name="menu-top@large"></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+      </nav>
+      <div id="search-box--desktop" class="search-box">
+           <div class="container">
+               <form action="" class="gridle-row">
+                   <!--<span class="triangle triangle--right"></span>-->
+                   <div class="gridle-gr-10 gridle-gr-12@tablet">
+                       <input type="text" class="form-control__field" placeholder="¿Qué estás buscando?">
+                   </div>
+                   <div class="gridle-gr-2 gridle-gr-12@tablet">
+                       <button class="button button--blue button--full-width no-margin">
+                           Buscar <span class="icon-elem icon-elem--search"></span>
+                       </button>
+                   </div>
+               </form>
+           </div>
+      </div>
+   </header>
+    <main>
+        <section class="main main-home">
+            <div class="main-home__veil"></div>
+            <div class="main-home__content">
+                <div class="container">
+                    <div class="gridle-row">
+                        <div class="gridle-gr-12 no-padding">
+                            <figure class="full-figure">
+                                <!--<img src="images/img/16587045_973883612742458_6025084632170135563_o.jpeg" alt="title">-->
+                                <h1 class="main-home__title font-centered">El <span class="main-home__title--color">lenguaje</span> contruye realidad.</h1>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon horizon--overlay">
+            <div class="container">
+                <div class="gridle-row">
+                    <div class="gridle-gr-4 gridle-gr-10@large gridle-prefix-1@large gridle-gr-12@tablet gridle-prefix-0@tablet no-padding--vertical">
+                        <article class="common-box common-box--simple">
+                            <figure class="common-box__figure">
+                                <img src="https://placehold.it/500x300" alt="titulo"/>
+                            </figure>
+                            <div class="common-box__body">
+                                <a href="#" title="title">
+                                    <h2 class="common-box__title common-box__title--serif common-box__title--medium no-padding--top">Sobre ILCL</h2>
+                                </a>
+                                <p class="common-box__excerpt">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
+                                </p>
+                                <div class="common-box__extra">
+                                    <a href="#" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-4 gridle-gr-10@large gridle-prefix-1@large gridle-gr-12@tablet gridle-prefix-0@tablet no-padding--vertical">
+                        <article class="common-box common-box--simple">
+                            <figure class="common-box__figure">
+                                <img src="https://placehold.it/500x300" alt="titulo"/>
+                            </figure>
+                            <div class="common-box__body">
+                                <a href="#" title="title">
+                                    <h2 class="common-box__title common-box__title--serif common-box__title--medium no-padding--top">Sobre ILCL</h2>
+                                </a>
+                                <p class="common-box__excerpt">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
+                                </p>
+                                <div class="common-box__extra">
+                                    <a href="#" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-4 gridle-gr-10@large gridle-prefix-1@large gridle-gr-12@tablet gridle-prefix-0@tablet no-padding--vertical">
+                        <article class="common-box common-box--simple">
+                            <figure class="common-box__figure">
+                                <img src="https://placehold.it/500x300" alt="titulo"/>
+                            </figure>
+                            <div class="common-box__body">
+                                <a href="#" title="title">
+                                    <h2 class="common-box__title common-box__title--serif common-box__title--medium no-padding--top">Sobre ILCL</h2>
+                                </a>
+                                <p class="common-box__excerpt">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
+                                </p>
+                                <div class="common-box__extra">
+                                    <a href="#" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon">
+            <div class="container">
+                <h2 class="common-box__title--main common-box__title--serif">Carreras y postgrados</h2>
+                <div class="gridle-row">
+                    <div class="gridle-gr-3 gridle-gr-6@large gridle-gr-12@tablet no-padding--top">
+                        <article class="common-box bg-gray">
+                            <figure class="common-box__figure common-box__figure__icon">
+                                <img src="images/iconos/Iconos-01.svg" alt="icon">
+                            </figure>
+                            <div class="common-box__body font-centered">
+                                <h2 class="common-box__title--main common-box__title--serif">Top</h2>
+                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="common-box__extra">
+                                    <a href="#" class="button button--blue button--fixed">carreras</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-3 gridle-gr-6@large gridle-gr-12@tablet no-padding--top">
+                        <article class="common-box bg-gray">
+                            <figure class="common-box__figure common-box__figure__icon">
+                                <img src="images/iconos/Iconos_books.svg" alt="icon"/>
+                            </figure>
+                            <div class="common-box__body font-centered">
+                                <h2 class="common-box__title--main common-box__title--serif">Top</h2>
+                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="common-box__extra">
+                                    <a href="#" class="button button--blue button--fixed">carreras</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-3 gridle-gr-6@large gridle-gr-12@tablet no-padding--top">
+                        <article class="common-box bg-gray">
+                            <figure class="common-box__figure common-box__figure__icon">
+                                <img src="images/iconos/Iconos_paper.svg" alt="icon"/>
+                            </figure>
+                            <div class="common-box__body font-centered">
+                                <h2 class="common-box__title--main common-box__title--serif">Top</h2>
+                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="common-box__extra">
+                                    <a href="#" class="button button--blue button--fixed">carreras</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-3 gridle-gr-6@large gridle-gr-12@tablet no-padding--top">
+                        <article class="common-box bg-gray">
+                            <figure class="common-box__figure common-box__figure__icon">
+                                <img src="images/iconos/Iconos_world.svg" alt="icon"/>
+                            </figure>
+                            <div class="common-box__body font-centered">
+                                <h2 class="common-box__title--main common-box__title--serif">Top</h2>
+                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="common-box__extra">
+                                    <a href="#" class="button button--blue button--fixed">carreras</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon">
+            <div class="container">
+                <div class="gridle-row">
+                    <div class="gridle-gr-9 gridle-gr-12@large no-padding--vertical">
+                        <h2 class="common-box__title--main common-box__title--serif">Novedades</h2>
+                        <div class="gridle-row">
+                            <div class="gridle-gr-12 no-padding--vertical">
+                                <article class="common-box common-box--horizontal common-box--featured">
+                                    <div class="gridle-row">
+                                        <div class="gridle-gr-6 gridle-gr-12@large no-padding--vertical">
+                                            <figure class="common-box__figure">
+                                                <a href="#">
+                                                    <img src="https://placehold.it/400x200" alt="title"/>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                        <div class="gridle-gr-6 gridle-gr-12@large no-padding--vertical">
+                                            <div class="common-box__body">
+                                                <p class="common-box__meta upper">Lorem, ipsum</p>
+                                                <a href="#" class="title">
+                                                    <h2 class="common-box__title--news common-box__title--midtall">Lorem ipsum dolor sit amet. Amet ibero velit suscipit ducimus magnam eius aut sit sed laborum placeat.</h2>
+                                                </a>
+                                                <p class="common-box__meta font-black">
+                                                    <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
+                                                    <a href="#">El autor</a>
+                                                </p>
+                                                <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>11 Septiembre 2017</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="gridle-row">
+                            <div class="gridle-gr-6 gridle-gr-12@large no-padding--vertical">
+                                <article class="common-box common-box--horizontal">
+                                    <div class="common-box__body">
+                                        <p class="common-box__meta upper">Lorem, ipsum</p>
+                                        <a href="#" class="title">
+                                            <h2 class="common-box__title--news">Lorem ipsum dolor sit amet</h2>
+                                        </a>
+                                        <p class="common-box__meta font-black">
+                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
+                                            <a href="#">El autor</a>
+                                        </p>
+                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>11 Septiembre 2017</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="gridle-gr-6 gridle-gr-12@large no-padding--vertical">
+                                <article class="common-box common-box--horizontal">
+                                    <div class="common-box__body">
+                                        <p class="common-box__meta upper">Lorem, ipsum</p>
+                                        <a href="#" class="title">
+                                            <h2 class="common-box__title--news">Lorem ipsum dolor sit amet</h2>
+                                        </a>
+                                        <p class="common-box__meta font-black">
+                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
+                                            <a href="#">El autor</a>
+                                        </p>
+                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>11 Septiembre 2017</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gridle-gr-3 gridle-gr-12@large no-padding--top">
+                        <aside>
+                            <h2 class="common-box__title--main common-box__title--serif">Newsletter</h2>
+                            <div class="common-box common-box__aside bg-gray">
+                                <div class="common-box__body">
+                                    <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsa, facere. Quidem consectetur distinctio.</p>
+                                    <form action="" class="gridle-row common-box__form" data-module="common-form" novalidate="" data-validizr-handled="true">
+                                        <div class="gridle-gr-12 no-padding--horizontal">
+                                            <div class="form-control" data-error-message="Debe contener solo caracteres alfabéticos.">
+                                                <label for="nombre" class="form-control__label">
+                                                    Nombre*
+                                                </label>
+                                                <input type="text" name="nombre" id="nombre" class="form-control__field" placeholder="Ingrese su nombre" data-custom-validation="onlyString" data-maxlength="50" data-validizr-validity="false" required>
+                                            </div>
+                                        </div>
+                                        <div class="gridle-gr-12 no-padding--horizontal">
+                                            <div class="form-control" data-error-message="Debe contener el @ y ser un mail válido">
+                                                <label for="email" class="form-control__label">
+                                                    E-mail*
+                                                </label>
+                                                <input type="mail" name="email" id="email" class="form-control__field" placeholder="Ingrese su e-mail" required>
+                                            </div>
+                                        </div>
+                                        <div class="gridle-gr-12 no-padding--horizontal font-centered">
+                                            <div class="common-box__button font-centered button__box">
+                                                <a href="#" class="button button--blue button--full-width no-margin upper">Enviar</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon horizon-top bg-gray">
+            <div class="container">
+                <div class="gridle-row">
+                    <div class="gridle-gr-6 gridle-gr-12@large no-padding--vertical">
+                        <h2 class="common-box__title--main common-box__title--serif">Agenda</h2>
+                        <article class="common-box border-gray--light no-padding--top">
+                            <div class="gridle-row">
+                                <div class="gridle-gr-2 gridle-gr-3@tablet o-padding--horizontal">
+                                    <a href="#" class="common-box__date common-box__file--min" title="title">
+                                        27 <span class="common-box__date--month">feb</span>
+                                    </a>
+                                </div>
+                                <div class="gridle-gr-10 gridle gridle-gr-9@tablet no-padding--vertical">
+                                    <div class="common-box__body">
+                                        <p class="common-box__meta">
+                                            Lorem, ipsum
+                                        </p>
+                                        <a href="#" title="title">
+                                            <h2 class="common-box__title--news">El título Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                        </a>
+                                        <p class="common-box__meta font-black">
+                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
+                                            <a href="#">El autor</a>
+                                        </p>
+                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>15:00 a 18:00 hrs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="common-box no-padding--top">
+                            <div class="gridle-row">
+                                <div class="gridle-gr-2 gridle-gr-3@tablet o-padding--horizontal">
+                                    <a href="#" class="common-box__date common-box__file--min" title="title">
+                                        27 <span class="common-box__date--month">feb</span>
+                                    </a>
+                                </div>
+                                <div class="gridle-gr-10 gridle gridle-gr-9@tablet no-padding--vertical">
+                                    <div class="common-box__body">
+                                        <p class="common-box__meta">
+                                            Lorem, ipsum
+                                        </p>
+                                        <a href="#" title="title">
+                                            <h2 class="common-box__title--news">El título Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                        </a>
+                                        <p class="common-box__meta font-black">
+                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
+                                            <a href="#">El autor</a>
+                                        </p>
+                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>15:00 a 18:00 hrs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-6 gridle-gr-12@large no-padding--vertical">
+                        <h2 class="common-box__title--main common-box__title--serif">Publicaciones</h2>
+                        <article class="common-box border-gray--light no-padding--top">
+                            <div class="gridle-row">
+                                <div class="gridle-gr-2 gridle-gr-3@tablet no-padding--horizontal">
+                                    <a href="#" class="common-box__file common-box__file--min" title="title">
+                                        pdf
+                                    </a>
+                                </div>
+                                <div class="gridle-gr-10 gridle-gr-9@tablet no-padding--vertical">
+                                    <div class="common-box__body">
+                                        <p class="common-box__meta">
+                                            Lorem, ipsum
+                                        </p>
+                                        <a href="#" title="title">
+                                            <h2 class="common-box__title--news">El título Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                        </a>
+                                        <p class="common-box__meta font-black">
+                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
+                                            <a href="#">El autor</a>
+                                        </p>
+                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>11 septiembre 2017</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="common-box no-padding--top">
+                            <div class="gridle-row">
+                                <div class="gridle-gr-2 gridle-gr-3@tablet no-padding--horizontal">
+                                    <a href="#" class="common-box__file common-box__file--min" title="title">
+                                        pdf
+                                    </a>
+                                </div>
+                                <div class="gridle-gr-10 gridle-gr-9@tablet no-padding--vertical">
+                                    <div class="common-box__body">
+                                        <p class="common-box__meta">
+                                            Lorem, ipsum
+                                        </p>
+                                        <a href="#" title="title">
+                                            <h2 class="common-box__title--news">El título Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                        </a>
+                                        <p class="common-box__meta font-black">
+                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
+                                            <a href="#">El autor</a>
+                                        </p>
+                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>11 septiembre 2017</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-bar">
+     <div class="footer-bar--primary">
+         <div class="container">
+             <div class="gridle-row">
+                 <div class="gridle-gr-3 gridle-gr-12@large no-padding">
+                     <a href="index.html" class="app-brand">
+                         <img src="images/logos/logoILCL_white.svg" alt="title">
+                     </a>
+                     <div class="footer-bar__detalle">
+                         <p><span class="icon-elem icon-elem--place"> </span>Av. El bosque 123, Viña del mar, Chile</p>
+                         <p><span class="icon-elem icon-elem--phone"> </span>Lorem ipsum el teléfono</p>
+                         <p><span class="icon-elem icon-elem--mail_outline"> </span>Lorem ipsum el correo</p>
+                     </div>
+                     <p class="footer-bar__social-link">
+                         <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--mail_outline"></a>
+                         <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--facebook"></a>
+                         <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--twitter"></a>
+                         <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--linkedin"></a>
+                     </p>
+                 </div>
+                 <div class="gridle-gr-2 gridle-prefix-1 gridle-gr-3@large gridle-gr-12@tablet gridle-prefix-0@large no-padding--vertical">
+                     <ul class="normal-list upper">
+                         <li>
+                             <a href="#">Sobre el ilcl</a>
+                         </li>
+                         <li>
+                             <a href="#">Investigación</a>
+                         </li>
+                         <li>
+                             <a href="#">ILCL en Contexto</a>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-6@tablet no-padding--vertical">
+                     <ul class="normal-list">
+                         <li>
+                             <a href="#">Carreras</a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-6@tablet no-padding--vertical">
+                     <ul class="normal-list">
+                         <li>
+                             <a href="#">Postgrados </a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-12@tablet no-padding--vertical">
+                     <ul class="normal-list footer-bar__links">
+                         <li>
+                             <a href="#">Links</a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                         <li>
+                             <a href="#">Lorem ipsum dolor sit amet</a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="gridle-row">
+                 <div class="gridle-gr-6 gridle gridle-prefix-3 gridle-gr-12@large gridle-prefix-0@large no-padding font-centered">
+                     <ul class="list-inline personas-box no-padding--bottom upper">
+                         <li><a href="#" class="button button--sq button--blue">Estudiantes</a></li>
+                         <li><a href="#" class="button button--sq button--red">Alumni</a></li>
+                         <li><a href="#" class="button button--sq button--gray">Académicos</a></li>
+                         <li><a href="#" class="button button--sq button--gold">Funcionarios</a></li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="footer-bar--secondary font-centered">
+         <p>&copy; Ponitificia Universidad Católica de Valparaíso 2017</p>
+     </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="scripts/min/main.min.js"></script>
+   <script src="scripts/plugins/stickyParent.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
