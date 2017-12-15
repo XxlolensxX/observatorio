@@ -24,14 +24,14 @@
                 <img src="images/img/img_prueba_1.png" alt="titulo" />
               </figure>
               <div class="common-box__body">
-                <a href="portadilla.shtml" title="title">
+                <a href="#" title="title">
                   <h2 class="common-box__title common-box__title--medium no-padding--top">Chile</h2>
                 </a>
                 <p class="common-box__excerpt">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
                 </p>
                 <div class="common-box__extra">
-                  <a href="portadilla.shtml" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                  <a href="#" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
                 </div>
               </div>
             </article>
@@ -42,14 +42,14 @@
                 <img src="images/img/img_prueba_2.png" alt="titulo" />
               </figure>
               <div class="common-box__body">
-                <a href="portadilla.shtml" title="title">
+                <a href="#" title="title">
                   <h2 class="common-box__title common-box__title--medium no-padding--top">América Latina y el Mundo</h2>
                 </a>
                 <p class="common-box__excerpt">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
                 </p>
                 <div class="common-box__extra">
-                  <a href="portadilla.shtml" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                  <a href="#" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
                 </div>
               </div>
             </article>
@@ -60,14 +60,14 @@
                 <img src="images/img/img_prueba_3.png" alt="titulo" />
               </figure>
               <div class="common-box__body">
-                <a href="portadilla.shtml" title="title">
+                <a href="#" title="title">
                   <h2 class="common-box__title common-box__title--medium no-padding--top">Investigación UC</h2>
                 </a>
                 <p class="common-box__excerpt">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
                 </p>
                 <div class="common-box__extra">
-                  <a href="portadilla.shtml" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                  <a href="#" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
                 </div>
               </div>
             </article>
@@ -299,4 +299,108 @@
       </div>
     </section>
   </main>
-<!--#include file="footer.shtml" -->
+  <footer class="footer-bar">
+    <div class="footer-bar--primary">
+      <div class="container">
+        <div class="gridle-row">
+          <div class="gridle-gr-3 gridle-gr-12@large no-padding">
+            <a href="index.html" class="app-brand">
+                         <img src="images/logos/logoILCL_white.svg" alt="title">
+                     </a>
+            <div class="footer-bar__detalle">
+              <p><span class="icon-elem icon-elem--place"> </span>Av. El bosque 123, Viña del mar, Chile</p>
+              <p><span class="icon-elem icon-elem--phone"> </span>Lorem ipsum el teléfono</p>
+              <p><span class="icon-elem icon-elem--mail_outline"> </span>Lorem ipsum el correo</p>
+            </div>
+            <p class="footer-bar__social-link">
+              <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--mail_outline"></a>
+              <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--facebook"></a>
+              <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--twitter"></a>
+              <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--linkedin"></a>
+            </p>
+          </div>
+          <div class="gridle-gr-2 gridle-prefix-1 gridle-gr-3@large gridle-gr-12@tablet gridle-prefix-0@large no-padding--vertical">
+            <ul class="normal-list upper">
+              <li>
+                <a href="#">Sobre el ilcl</a>
+              </li>
+              <li>
+                <a href="#">Investigación</a>
+              </li>
+              <li>
+                <a href="#">ILCL en Contexto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-6@tablet no-padding--vertical">
+            <ul class="normal-list">
+              <li>
+                <a href="#">Carreras</a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+            </ul>
+          </div>
+          <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-6@tablet no-padding--vertical">
+            <ul class="normal-list">
+              <li>
+                <a href="#">Postgrados </a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+            </ul>
+          </div>
+          <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-12@tablet no-padding--vertical">
+            <ul class="normal-list footer-bar__links">
+              <li>
+                <a href="#">Links</a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#">Lorem ipsum dolor sit amet</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="gridle-row">
+          <div class="gridle-gr-6 gridle gridle-prefix-3 gridle-gr-12@large gridle-prefix-0@large no-padding font-centered">
+            <ul class="list-inline personas-box no-padding--bottom upper">
+              <li><a href="#" class="button button--sq button--blue">Estudiantes</a></li>
+              <li><a href="#" class="button button--sq button--red">Alumni</a></li>
+              <li><a href="#" class="button button--sq button--gray">Académicos</a></li>
+              <li><a href="#" class="button button--sq button--gold">Funcionarios</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar--secondary font-centered">
+      <p>&copy; Ponitificia Universidad Católica de Valparaíso 2017</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="scripts/min/main.min.js"></script>
+  <script src="scripts/plugins/stickyParent.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

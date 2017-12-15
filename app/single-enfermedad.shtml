@@ -1,0 +1,101 @@
+<!--#include file="header.shtml" -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul class="list-inline list-inline--min-margin">
+                <li class="breadcrumbs__item">
+                    <span class="icon-elem icon-elem--home"> </span>
+                    <a href="index.shtml" class="breadcrumbs__link">Inicio</a>
+                </li>
+                <li>
+                    <span class="icon-elem icon-elem--chevron_right"></span>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="index.shtml" class="breadcrumbs__link">Chile</a>
+                </li>
+                <li>
+                    <span class="icon-elem icon-elem--chevron_right"></span>
+                </li>
+                <li  class="breadcrumbs__item breadcrumbs__item--current">
+                    <a href="#" class="breadcrumbs__link">Lepra</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <main>
+      <section class="main main-enfermedad">
+        <div class="container">
+          <article class="gridle-row common-box common-box--horizontal common-box--featured common-box--featured--no-border">
+            <figure class="gridle-gr-5 gridle-gr-12@tablet common-box__figure">
+              <img src="images/img/lepra.png" alt="title" class="elastic-img"/>
+            </figure>
+          <div class="gridle-gr-7 gridle-gr-12@tablet no-padding--vertical common-box__body">
+            <h2 class="common-box__title common-box__title--tallest">Lepra</h2>
+            <p class="common-box__meta no-padding--top"><b>Agente Etiólogico: </b> <span>Trypanosoma cruzi</span> pertenece a la familia <span>Trypanosomatidae</span> </p>
+            <p class="common-box__meta"><b>Modo Transmisión: </b>contacto con las heces u orina infectadas de insectos triatomíneos (vinchuca), pican piel expuesta en la noche</p>
+            <p class="common-box__meta"><b>Enfermedad: </b>Enfermedad de Chagas (tripanosomiasis americana): asintomático, cardiopatía chagásica, alteraciones motoras del esfínter esofágico (megaesófago) y colon (megacolon chagásico).</p>
+            <p class="common-box__meta"><b>Prevención:: </b>Control Vectorial</p>
+          </div>
+          </article>
+          <article class="common-box common-box--horizontal common-box--featured common-box--featured--no-border">
+            <figure class="common-box__figure">
+              <img src="images/img/img_lepra.png" alt="imagen" class="elastic-img">
+              <figcaption class="common-box__caption">Fuente datos: WHO</figcaption>
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <section class="horizon horizon-mintop">
+        <div class="container">
+          <h3 class="common-box__title common-box__title--serif common-box__title--midtall">Otras enfermedades en Chile</h3>
+          <div class="gridle-row">
+            <div class="gridle-gr-3 gridle-gr-12@tablet">
+              <article class="common-box">
+                <figure class="common-box__figure">
+                  <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="programa.shtml">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                <a href="programa.shtml" class="common-box__title common-box__title--full">Ver Ficha</a>
+              </article>
+            </div>
+            <div class="gridle-gr-3 gridle-gr-12@tablet">
+              <article class="common-box">
+                <figure class="common-box__figure">
+                  <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="programa.shtml">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                </figure>
+              <a href="programa.shtml" class="common-box__title common-box__title--full">Ver Ficha</a>
+              </article>
+            </div>
+            <div class="gridle-gr-3 gridle-gr-12@tablet">
+              <article class="common-box">
+                <figure class="common-box__figure">
+                  <img src="https://placehold.it/300x300" alt="title"/>
+                  <a href="programa.shtml">
+                    <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                  </a>
+                </figure>
+                <a href="programa.shtml" class="common-box__title common-box__title--full">Ver Ficha</a>
+              </article>
+            </div>
+            <div class="gridle-gr-3 gridle-gr-12@tablet">
+              <article class="common-box">
+                <figure class="common-box__figure">
+                  <img src="https://placehold.it/300x300" alt="title"/>
+                  <a href="programa.shtml">
+                    <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                  </a>
+                </figure>
+                <a href="programa.shtml" class="common-box__title common-box__title--full">Ver Ficha</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+<!--#include file="footer.shtml" -->

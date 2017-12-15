@@ -33,7 +33,7 @@ $text_sizes: (
 	medium: 	1.142857142857143rem,	// 16px
 	big: 		1.285714285714286rem,	// 18px
 	tall: 		1.428571428571429rem,	// 20px
-	midtall: 	1.714285714285714rem, 	// 24px
+	midtall: 	25px,//1.714285714285714rem, 	// 24px
 	taller: 	2rem,					// 28px
 	tallest: 	2.142857142857143rem,	// 30px
 	midhuge: 	2.285714285714286rem, 	// 32px
@@ -87,7 +87,7 @@ $color_main_darker: 		#004085 !default;
 $color_main_dark: 			#2F549E !default;
 $color_main_regular: 		#3D7EDB !default;
 $color_main_light: 			#6498E2 !default;
-$color_main_lighter: 		#8fc5ff !default;
+$color_main_lighter: 		#F3F5F9 !default;
 
 $color_secondary_darker: 	#804000 !default;
 $color_secondary_dark: 		#b35e09 !default;

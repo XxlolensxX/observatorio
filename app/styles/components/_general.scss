@@ -11,6 +11,8 @@ body{
     &__brand{
       background: $color_main_regular;
       align-items: flex-start;
+      border-radius: 0 0 10px 10px;
+      height: 10rem;
         .app-brand{
             padding: 26px 14px 19px 14px;
             overflow: hidden;
@@ -39,8 +41,9 @@ body{
         }
     }
     &__menu{
-        padding: .5rem 0;
+        padding: 1rem 0;
         &-holder{
+            margin: 0;
             flex-direction: column;
             z-index: 9999999999;
             @include media (large-down){
@@ -52,11 +55,14 @@ body{
         }
         .menu-item{
             margin-left: 1.5rem;
+            a{
+              color: $color_white;
+              &:after{
+                color: $color_white;
+              }
+            }
             &:first-child{
                 margin-left: 0;
-            }
-            &__link{
-                color: $color_grey_darker;
             }
             &--has-submenu{
                 color: $color_grey_darker;
@@ -103,7 +109,7 @@ body{
                 }
             }
             &--has-submenu:after{
-                color: $color_white;
+                color: $color_main_regular;
             }
             &__hide{
                 @include media (large-down){
@@ -112,19 +118,18 @@ body{
             }
         }
         &--primary{
-          background-color: $color_main_regular;
             text-transform: uppercase;
             .menu-item{
                 &__link{
                     font-size: map-get($text_sizes, midreg);
-                    font-weight: $weight_semibold;
+                    font-weight: 400;
                 }
                 &:hover{
                     background: $color_blue;
                     &.menu-item--has-submenu{
                         color: $color_white;
                         &:after{
-                            color: $color_white;
+                          color: $color_main_regular;
                         }
                     }
                     @include media (large-down){
@@ -158,7 +163,6 @@ body{
                     }
                 }
                 &--has-submenu:after{
-                    color: $color_grey_darker;
                     @include media (large-down){
                         color: $color_white;
                     }
@@ -167,8 +171,7 @@ body{
         }
         &--secondary{
             .menu-item{
-                padding: .25rem .5rem;
-                margin: 0 .5rem;
+                margin: 0 18px;
                 &:hover{
                     .submenu{
 
@@ -284,13 +287,20 @@ body{
                 }
                 &__search{
                     padding: 0;
-                    // border: 1px solid transparent;
-                    background: $color_blue;
-                    border-radius: .5rem;
+                    background: $color_main_regular;
+                    border-radius: 2rem;
                     .menu-item__link{
                         color: $color_white;
-                        padding: .5rem 1rem;
-                        width: 8rem;
+                        padding: 12px 10px 12px 27px;
+                        display: flex;
+                        align-items: center;
+                        font-weight: 300;
+                        font-size: 14px;
+
+                        .icon-elem{
+                          margin-left: 13px;
+                          font-size: 20px;
+                        }
                     }
                     &:hover{
                         background: $color_blue_light;
@@ -326,6 +336,45 @@ body{
                 }
             }
         }
+    }
+    .menu-up{
+      background: $color_main_regular;
+      border-radius: 0  0 10px 0;
+      display: flex;
+      justify-content: flex-end;
+
+      &--left{
+        margin-right: 1.5rem;
+
+      }
+      &--right{
+        background-color: $color_main_light;
+        border-radius: 0  0 10px 0;
+        padding: 0 25px;
+      }
+
+      .menu-item{
+        a{
+          font-size: map-get($text_sizes, ten);
+          color: #FCD900;
+          letter-spacing: 0.5px;
+        }
+
+        &--special{
+
+          a{
+            color: $color_white;
+          }
+        }
+
+        &--has-submenu{
+          &:after{
+            font-size: map-get($text_sizes, regular);
+            right: -16px;
+            color: $color_white;
+          }
+        }
+      }
     }
     &__deploy-button{
         top: 0;
@@ -394,11 +443,10 @@ body{
     position: relative;
     &-home{
         &__veil{
-            background: url('../images/img/campus.jpeg');
             background-position: center bottom;
             background-size: cover;
             background-repeat: no-repeat;
-            filter: grayscale(100%);
+            filter: grayscale(1%);
             position: absolute;
             width: 100%;
             height: 100%;
@@ -407,16 +455,16 @@ body{
         }
         &__content{
             position: relative;
-            background: rgba($color_white, .5);
+            background: rgba($color_white, .9);
             z-index: 2;
         }
         &__title{
-            padding: 10rem;
+            padding: 10rem 8rem;
             font-size: 3rem;
+            font-weight: 400;
             color: $color_black;
-            font-family: $base_serif_font_family;
             &--color{
-                color: $color_red_dark;
+                color: $color_main_regular;
             }
             @include media (large-down){
                 padding: 5rem 2rem;
@@ -454,7 +502,7 @@ body{
         }
         &__title{
             padding-bottom: 1rem;
-            font-family: $base_serif_font_family;
+            font-family: $base_sans_font_family;
         }
         &__body{
             background: rgba($color_black, 0.4);
@@ -563,14 +611,18 @@ article + article { border-top: 1px solid $color_grey_light; }
 
     &__title{
         margin: 0;
-        padding-bottom: 1rem;
         &--serif{
-            font-family: $base_serif_font_family;
+            font-family: $base_sans_font_family;
             &-blue{
                 color: $color_blue;
                 margin: 0;
                 padding-bottom: .5rem;
             }
+        }
+        &--destc{
+          font-size: 24px;
+          color: $color_main_dark;
+          font-weight: 700;
         }
         &--regular{
             font-size: map-get($text_sizes, regular);
@@ -587,6 +639,7 @@ article + article { border-top: 1px solid $color_grey_light; }
             font-size: map-get($text_sizes, midtall);
             margin: 0;
             padding-bottom: map-get($text_sizes, tall);
+            font-weight: 400;
         }
         &--tallest{
             font-size: map-get($text_sizes, tallest) !important;
@@ -602,7 +655,7 @@ article + article { border-top: 1px solid $color_grey_light; }
             }
         }
         &--news{
-            font-family: $base_serif_font_family;
+            font-family: $base_sans_font_family;
             font-size: map-get($text_sizes, medium);
             margin: 0;
             line-height: $headings_line_height;
@@ -614,18 +667,19 @@ article + article { border-top: 1px solid $color_grey_light; }
             }
         }
         &--midtall{
-            font-family: $base_serif_font_family;
+            font-family: $base_sans_font_family;
             font-size: map-get($text_sizes, midtall);
             margin: 0;
+            font-weight: 400;
         }
         &--tall{
-            font-family: $base_serif_font_family;
+            font-family: $base_sans_font_family;
             font-size: map-get($text_sizes, tall);
             margin: 0;
         }
         &--full{
             width: 100%;
-            background: $color_blue;
+            background: $color_main_dark;
             color: $color_white;
             text-align: center;
             text-transform: uppercase;
@@ -652,7 +706,7 @@ article + article { border-top: 1px solid $color_grey_light; }
     &__excerpt{
         margin: 0;
         padding-bottom: map-get($text_sizes, ten);
-        padding-top: map-get($text_sizes, midreg);
+        padding-top: 10px;
         font-size: map-get($text_sizes, regular);
         line-height: map-get($text_sizes, midtall);
         &--big{
@@ -672,8 +726,9 @@ article + article { border-top: 1px solid $color_grey_light; }
             padding: 2rem;
             padding-bottom: 1rem;
             img{
-                width: 40%;
-                margin: 0 30%;
+                width: 64px;
+                height: 64px;
+                margin: 0 auto;
             }
         }
         &__overlay{
@@ -692,7 +747,7 @@ article + article { border-top: 1px solid $color_grey_light; }
             text-align: center;
             background: rgba($color_black, .1);
             color: $color_white;
-            font-family: $base_serif_font_family;
+            font-family: $base_sans_font_family;
             font-size: map-get($text_sizes, big);
             font-weight: $weight_bold;
             a{
@@ -722,7 +777,7 @@ article + article { border-top: 1px solid $color_grey_light; }
         margin: 0;
     }
     &__meta{
-        color: $color_grey_dark;
+        color: $color_grey_darker;
         padding-top: .5rem;
 
         &:first-child{
@@ -928,7 +983,7 @@ article + article { border-top: 1px solid $color_grey_light; }
             }
         }
         h2,h3,h4,h5,h6{
-            font-family: $base_serif_font_family;
+            font-family: $base_sans_font_family;
         }
         h2{
             font-size: map-get($text_sizes, midtall);
@@ -993,16 +1048,17 @@ article + article { border-top: 1px solid $color_grey_light; }
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: $base_serif_font_family;
-        height: 6rem;
-        width: 6rem;
+        font-family: $base_sans_font_family;
+        height: 6.5rem;
+        width: 6.5rem;
         font-size: 1.5rem;
         text-transform: uppercase;
         margin: auto;
-        background: $color_gold;
-        border-radius: 1rem;
+        background: $color_main_light;
+        border-radius: 3rem;
         color: $color_white;
         position: relative;
+        font-weight: 400;
         &:hover{
             color: $color_white;
             text-decoration: none;
@@ -1143,17 +1199,20 @@ article + article { border-top: 1px solid $color_grey_light; }
 }
 .button{
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: $weight_bold;
+    font-size: 14px;
+    font-weight: 500;
     color: $color_white;
     text-transform: uppercase;
     margin: 0;
+    border-radius: 180px;
+    letter-spacing: .5px;
+    padding: 1.1rem;
     &:hover{
         text-decoration: none;
         color: $color_white;
     }
     &--blue{
-        background: $color_blue;
+        background: $color_main_dark;
         &:hover{
             background: $color_blue_dark;
         }
@@ -1216,7 +1275,7 @@ article + article { border-top: 1px solid $color_grey_light; }
     }
     &--minimal{
         padding: 0;
-        color: $color_blue;
+        color: $color_main_dark;
         font-weight: $weight_semibold;
         text-transform: none;
         &:hover{
@@ -1235,173 +1294,10 @@ aside{
     }
 }
 .footer-bar{
-    padding: 0;
-    background: $color_gray;
-    .app-brand{
-        padding-top: map-get($text_sizes, midhuge);
-        padding-bottom: map-get($text_sizes, midtall);
-        width: 80%;
-
-        @include media (large-down){
-            text-align: center;
-            margin: 0 10%;
-        }
-    }
-    &--secondary{
-        padding: 2rem 0;
-        width: 100%;
-        background: $color_white;
-        p{
-            color: $color_gray;
-        }
-    }
-    &__detalle{
-        padding-bottom: map-get($text_sizes, midtall);
-        font-size: map-get($text_sizes, tiny);
-        p{
-            margin: 0;
-            padding-bottom: map-get($text_sizes, ten);
-            &:last-child{
-                padding-bottom: 0;
-            }
-        }
-        @include media (large-down){
-            text-align: center;
-        }
-    }
-    &__social-link{
-        margin: 0;
-        padding-top: 0;
-        display: -webkit-flex;
-        display: flex;
-        .icon-elem{
-            padding: .5rem;
-            margin: 0;
-            font-size: map-get($text_sizes, medium);
-            background: $color_gray_light;
-            color: $color_white !important;
-            width: 2.5rem;
-            height: 2.5rem;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            &:hover{
-                text-decoration: none;
-            }
-            &--mail_outline{
-                &:hover{
-                    background: $color_googleplus;
-                }
-            }
-            &--facebook{
-                &:hover{
-                    background: $color_facebook;
-                }
-            }
-            &--twitter{
-                &:hover{
-                    background: $color_twitter;
-                }
-            }
-            &--linkedin{
-                &:hover{
-                    background: $color_linkedin;
-                }
-            }
-            @include media (large-down){
-                font-size: 2rem;
-                padding: .75rem;
-            }
-        }
-        @include media (large-down){
-            justify-content: center;
-            padding: 1rem;
-            .icon-elem--footer{
-                font-size: 2rem;
-                padding: 2rem;
-                width: 3rem;
-                height: 3rem;
-            }
-        }
-    }
-    .normal-list{
-        padding-top: map-get($text_sizes, beast);
-        &.upper{
-            li {
-                margin: 0;
-                padding-bottom: map-get($text_sizes, regular);
-                &:last-child{
-                    padding-bottom: 0;
-                }
-                a{
-                    font-size: map-get($text_sizes, regular);
-                    line-height: map-get($text_sizes, big);
-                }
-            }
-            @include media (large-down){
-                text-align: center;
-                padding-bottom: 1rem;
-            }
-        }
-        li{
-            padding-bottom: map-get($text_sizes, supermini);
-            margin: 0;
-            &:first-child{
-                margin: 0;
-                text-transform: uppercase;
-                padding-bottom: map-get($text_sizes, regular);
-                a{
-                    font-size: map-get($text_sizes, regular);
-                    line-height: map-get($text_sizes, big);
-                }
-            }
-            &:last-child{
-                padding-bottom: 0;
-            }
-            a{
-                font-size: map-get($text_sizes, tiny);
-                line-height: map-get($text_sizes, big);
-            }
-        }
-        @include media (large-down){
-            text-align: center;
-            padding-left: 0;
-        }
-    }
-    &__links{
-        @include media (large-down){
-            padding-bottom: 1rem;
-        }
-    }
-    .personas-box{
-        overflow: hidden;
-        width: 100%;
-        li{
-            width: 25%;
-            float: left;
-            padding: 0;
-            @include media (tablet-down){
-                width: 50%;
-                float: left;
-                padding: 0;
-            }
-        }
-        .button{
-            padding: .7rem auto;
-            width: 100%;
-            @include media (tablet-down){
-                padding-top: 1rem !important;
-                padding-bottom: 1rem !important;
-            }
-        }
-    }
-    &--secondary{
-        padding: 1rem 0;
-        font-size: map-get($text_sizes, tiny);
-        @include media (large-down){
-            padding: 1.5rem 0;
-        }
-    }
+  background-color: #A2A2A2;
+  color: $color_white;
+  text-align: center;
+  font-size: map-get($text_sizes, ten);
 }
 .collapsection{
     padding: 1rem 0;
@@ -1562,5 +1458,60 @@ aside{
   p{
     margin: 0;
     margin-left: 8px;
+  }
+}
+
+.bg-gray-light{
+  background-color: #F3F5F9;
+}
+
+.bg-main-ligther{
+  background-color: $color_main_lighter;
+}
+
+.novedades-home{
+  .common-box--featured{
+    border-bottom: 1px solid #DDDDDD;
+  }
+}
+
+.icon-elem{
+  &--color-main-light{
+    color: $color_main_light;
+  }
+}
+
+.border-radius{
+  &--all{
+    border-radius: 10px;
+  }
+}
+
+.form-control__field{
+  border: none;
+  height: 40px;
+}
+
+.menu-item__link{
+  &--sp{
+    opacity: .6;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: .3px;
+  }
+}
+
+
+.common-box{
+  &__caption{
+    font-size: map-get($text_sizes, tiny);
+    color: #666666;
+    margin-top: 8px;
+  }
+}
+
+.main-enfermedad{
+  .common-box--featured{
+    padding-bottom: 30px;
   }
 }

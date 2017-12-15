@@ -1,0 +1,132 @@
+<!--#include file="header.shtml" -->
+    <main>
+        <section class="main main-portadilla">
+            <div class="main-content">
+                <div class="container">
+                    <article class="common-box common-box--horizontal common-box--featured common-box--featured--no-border">
+                        <div class="gridle-row">
+                            <div class="gridle-gr-6 gridle-gr-12@tablet">
+                                <div class="common-box__body">
+                                    <h1 class="common-box__title--tallest">Chile</h1>
+                                    <p class="common-box__excerpt--big">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate veritatis natus ipsa blanditiis dignissimos, harum recusandae rem! Distinctio animi itaque officiis molestias officia eligendi voluptatem quos, odio eum dolor dignissimos.</p>
+                                </div>
+                            </div>
+                            <div class="gridle-gr-6 gridle-gr-12@tablet">
+                                <figure class="common-box__figure">
+                                    <img src="https://placehold.it/1200x600" alt="title" class="elastic-img"/>
+                                </figure>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon">
+          <div class="container">
+            <div class="gridle-row">
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="single-enfermedad.shtml">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="single-enfermedad.shtml" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="#">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="#" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="#">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="#" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="#">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="#" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="#">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="#" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="#">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="#" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="#">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="#" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="#">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="#" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+              <div class="gridle-gr-3 gridle-gr-12@tablet">
+                <article class="common-box">
+                  <figure class="common-box__figure">
+                    <img src="https://placehold.it/300x300" alt="title"/>
+                    <a href="#">
+                      <figcaption class="common-box__figure__overlay">Lorem ipsum dolor sit amet</figcaption>
+                    </a>
+                  </figure>
+                  <a href="#" class="common-box__title common-box__title--full">Ver Ficha</a>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+  <!--#include file="footer.shtml" -->
