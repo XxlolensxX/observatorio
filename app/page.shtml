@@ -1,0 +1,294 @@
+<!--#include file="header.shtml" -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul class="list-inline list-inline--min-margin">
+                <li class="breadcrumbs__item">
+                    <span class="icon-elem icon-elem--home"></span>
+                    <a href="index.html" class="breadcrumbs__link">Inicio</a></li>
+                <li>
+                    <span class="icon-elem icon-elem--chevron_right"></span>
+                </li>
+                <li class="breadcrumbs__item breadcrumbs__item--current">
+                    <a href="#" class="breadcrumbs__link">Sobre el Observatorio</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <main>
+      <section>
+        <div class="container">
+          <h1 class="common-box__title common-box__title--tallest">Sobre el Observatorio.</h1>
+        </div>
+        <article class="portada-page" style="background-image:url('images/background/observatorio.png')">
+          <img src="images/background/observatorio.png" alt="titulo" />
+        </article>
+      </section>
+
+        <section class="post-content">
+            <div class="container">
+                <div class="gridle-row">
+                    <div class="gridle-gr-1 gridle-hide@tablet font-centered">
+                        <ul id="single-anchor" class="share-list share-list--column">
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--mail_outline share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--facebook share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--twitter share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--linkedin share-list__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gridle-gr-12@tablet gridle-hide gridle-visible@tablet">
+                        <ul class="share-list share-list--row">
+                            <li class="share-list__item">
+                                Comparte:
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--mail_outline share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--facebook share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--twitter share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--linkedin share-list__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gridle-gr-10 gridle-sufix-1 gridle-gr-12@tablet gridle-prefix-0@tablet common-box__content">
+                        <!--the content-->
+                        <p class="common-box__content__excerpt">The excerpt lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit praesentium labore
+                            modi in soluta autem molestiae necessitatibus suscipit quia. Recusandae eos impedit ad necessitatibus
+                            dolores excepturi ipsam expedita, culpa est? Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Rerum praesentium maiores laborum quisquam esse, officia quae, perferendis illum ipsam
+                            ullam asperiores odio, aut debitis iusto minus iure animi tenetur magnam.</p>
+                        <blockquote>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quo eius necessitatibus blanditiis perferendis vitae excepturi
+                            neque earum tempora qui minima, repellat inventore similique soluta. Ducimus fugiat libero, nemo
+                            dolores.
+                        </blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus in facilis saepe nemo cupiditate
+                            labore cumque eos accusamus, dignissimos fugiat quos, est non, tempore nesciunt. Eum nobis inventore
+                            nam repudiandae.</p>
+                        <h2>Sistem automático de detección</h2>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ol>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nesciunt, pariatur commodi voluptas
+                            temporibus suscipit ex ratione odit ut eveniet possimus neque consequatur minus harum reprehenderit
+                            fuga, amet id tempore!</p>
+                        <h4>Detalles generales</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit maxime expedita architecto nulla
+                            ducimus iusto incidunt facilis quasi neque facere hic, quia magni tenetur, officiis natus commodi
+                            voluptate quibusdam culpa.</p>
+                        <h4>Hallazgos de los detalles generales</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum amet aspernatur qui alias nemo
+                            earum, ut ullam vero corrupti, culpa, reprehenderit consectetur nam reiciendis unde perspiciatis
+                            hic quidem laborum.</p>
+                        <h2>Cooperación internacional</h2>
+                        <figure class="black-box">
+                            <img src="https://placehold.it/900x400" class="cover-img" alt="titulo" />
+                            <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                        </figure>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolores odio cum quos earum ab, est
+                            suscipit optio temporibus at dolore veniam magnam, maiores consequatur et corrupti ea dolor a.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, iusto! Assumenda suscipit,
+                            quaerat cupiditate distinctio iure. Perspiciatis aliquam quod qui dolores? Placeat quas ratione
+                            error voluptatibus eligendi ex, quidem impedit?</p>
+                        <figure class="black-box">
+                            <img src="https://placehold.it/900x400" class="cover-img" alt="titulo" />
+                        </figure>
+                        <div class="black-box">
+                            <div class="slider" data-module="slider">
+                                <div class="slider__items" data-role="slider-list">
+                                    <div class="slider__slide" data-role="slider-slide">
+                                        <img src="http://unsplash.it/900/400?random&gravity=center" class="cover-img" alt="title" />
+                                        <figcaption>
+                                            Slider 1 lorem ipsum dolor sit amet
+                                        </figcaption>
+                                    </div>
+                                    <div class="slider__slide" data-role="slider-slide">
+                                        <img src="http://unsplash.it/900/400?random" class="cover-img" alt="title" />
+                                        <figcaption>
+                                            Slider 2 lorem ipsum dolor sit amet
+                                        </figcaption>
+                                    </div>
+                                </div>
+                                <div class="slider__arrows">
+                                    <button class="slider__arrow slider__arrow--prev" data-role="slider-arrow" data-direction="prev"></button>
+                                    <button class="slider__arrow slider__arrow--next" data-role="slider-arrow" data-direction="next"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--colapsables-->
+                        <div class="collapsection">
+                            <div class="common-collapse">
+                                <button class="common-collapse__btn">Módulo colapsable <span class="icon-elem icon-elem--chevron_down"></span></button>
+                                <div class="common-collapse__body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae mollitia id porro, perspiciatis
+                                        animi enim, minus eligendi consectetur eum sit sint placeat distinctio culpa, tempore.
+                                        Soluta facilis sapiente, laborum dolorum?</p>
+                                </div>
+                            </div>
+                            <div class="common-collapse">
+                                <button class="common-collapse__btn">Módulo colapsable <span class="icon-elem icon-elem--chevron_down"></span></button>
+                                <div class="common-collapse__body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae mollitia id porro, perspiciatis
+                                        animi enim, minus eligendi consectetur eum sit sint placeat distinctio culpa, tempore.
+                                        Soluta facilis sapiente, laborum dolorum?</p>
+                                </div>
+                            </div>
+                            <div class="common-collapse">
+                                <button class="common-collapse__btn">Módulo colapsable <span class="icon-elem icon-elem--chevron_down"></span></button>
+                                <div class="common-collapse__body">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Título 1</th>
+                                                <th>Título 2</th>
+                                                <th>Título 3</th>
+                                                <th>Título 4</th>
+                                            </tr>
+                                        </thead>
+                                        <tr>
+                                            <td>Opción a</td>
+                                            <td>Opción b</td>
+                                            <td>Opción y</td>
+                                            <td>Opción z</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Opción a</td>
+                                            <td>Opción b</td>
+                                            <td>Opción y</td>
+                                            <td>Opción z</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Opción a</td>
+                                            <td>Opción b</td>
+                                            <td>Opción y</td>
+                                            <td>Opción z</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="common-collapse">
+                            <div class="common-collapse__btn-shw">Descarga de archivos<span class="icon-elem icon-elem--file_download"></span></div>
+                            <div class="common-collapse__body-shw">
+                                <article class="common-box border-gray--light">
+                                    <div class="gridle-row">
+                                        <div class="gridle-gr-1 gridle-hide@tablet">
+                                            <a href="#" class="common-box__file common-box__file--min" title="title">
+                                                rar
+                                            </a>
+                                        </div>
+                                        <div class="gridle-gr-11 gridle-gr-12@tablet common-box__body">
+                                            <a href="#">
+                                                <h3 class="common-box__title--serif common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                                            </a>
+                                            <p class="common-box__meta">32mb</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="common-box">
+                                    <div class="gridle-row">
+                                        <div class="gridle-gr-1 gridle-hide@tablet">
+                                            <a href="#" class="common-box__file common-box__file--min" title="title">
+                                                rar
+                                            </a>
+                                        </div>
+                                        <div class="gridle-gr-11 gridle-gr-12@tablet common-box__body">
+                                            <a href="#">
+                                                <h3 class="common-box__title--serif common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                                            </a>
+                                            <p class="common-box__meta">32mb</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="common-collapse">
+                            <div class="common-collapse__btn-shw">Textos y citas<span class="icon-elem icon-elem--arrow_circle_down "></span></div>
+                            <div class="common-collapse__body-shw">
+                                <ol class="italic-list">
+                                    <li><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quo aperiam eum expedita consequuntur sint eveniet, sed porro cum dolorem at a animi voluptas dolore dolorum magni, dignissimos placeat fugiat?</i></li>
+                                    <li><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quo aperiam eum expedita consequuntur sint eveniet, sed porro cum dolorem at a animi voluptas dolore dolorum magni, dignissimos placeat fugiat?</i></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <ul class="share-list share-list--row share-list--row_righted">
+                            <li class="share-list__item">
+                                Comparte:
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--mail_outline share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--facebook share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--twitter share-list__link"></a>
+                            </li>
+                            <li class="share-list__item">
+                                <a href="#" class="icon-elem icon-elem--linkedin share-list__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon-media bg-gray">
+            <div class="container">
+                <h2 class="common-box__title common-box__title--serif common-box__title--tallest font-centered">Relacionados</h2>
+                <div class="gridle-row">
+                    <div class="gridle-gr-10 gridle-prefix-1 gridle-gr-12@tablet gridle-prefix-0@tablet">
+                        <article class="common-box border-gray">
+                            <div class="gridle-row">
+                                <div class="gridle-gr-1 gridle-gr-3@tablet">
+                                    <a href="#" class="common-box__file common-box__file--min" title="title">
+                                        PDF
+                                    </a>
+                                </div>
+                                <div class="gridle-gr-11 gridle-gr-9@tablet common-box__body">
+                                    <p class="common-box__meta">Etiqueta 1, etiqueta 2</p>
+                                    <a href="#" title="title">
+                                        <h3 class="common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est exercitationem magni
+                                            nam cum accusantium consequatur id facere ipsam, quia soluta obcaecati quidem
+                                            earum, dolorem harum itaque quo? Molestiae, officia, deleniti.</h3>
+                                    </a>
+                                    <p class="common-box__meta font-black"><span class="icon-elem icon-elem--gold icon-elem--person"> </span>Nombre del académico</p>
+                                    <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule"> </span> 10 Febrero 2017</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="common-box">
+                            <div class="gridle-row">
+                                <div class="gridle-gr-12 common-box__body">
+                                    <p class="common-box__meta">Etiqueta 1, etiqueta 2</p>
+                                    <a href="#" title="title">
+                                        <h3 class="common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod modi ducimus reprehenderit,
+                                            assumenda consequuntur impedit quae ratione tempore necessitatibus consectetur
+                                            incidunt temporibus aliquid autem delectus consequatur aut laudantium voluptatibus
+                                            tenetur.</h3>
+                                    </a>
+                                    <p class="common-box__meta font-black"><span class="icon-elem icon-elem--gold icon-elem--person"> </span>Nombre del académico</p>
+                                    <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule"> </span> 10 Febrero 2017</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!--#include file="footer.shtml" -->

@@ -1,149 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ILCL PUCV </title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Open+Sans:300,400,600,700,800" rel="stylesheet">
-</head>
-<body>
-   <header class="header-bar">
-      <nav class="nav-bar no-padding" data-module="nav-bar">
-           <div class="container">
-               <div class="nav-bar__holder">
-                   <div class="nav-bar__brand">
-                       <a href="index.html" class="app-brand app-brand--inline">
-                           <img class="app-brand__logo" src="images/logos/logoILCL_color.svg" alt="Logo" >
-                       </a>
-                   </div>
-                   <div class="nav-bar__body" data-role="nav-body">
-                       <button class="nav-bar__deploy-button" aria-label="Ver menú" data-role="nav-deployer" >
-                           <span></span>
-                       </button>
-                       <div class="nav-bar__menu-holder">
-                           <ul class="nav-bar__menu nav-bar__menu--primary">
-                              <li class="menu-item menu-item--has-submenu" data-role="touch-submenu" >
-                          <a title="ejemplo" class="menu-item__link" href="portadilla.html" data-role="touch-submenu-deployer">Portadilla</a>
-                          <ul class="submenu">
-                             <li class="submenu__item"><a title="ejemplo" href="portada-estudiantes.html">Portadilla estudiantes</a></li>
-                             <li class="submenu__item"><a title="ejemplo" href="portada-academicos.html">Portadilla académicos</a></li>
-                          </ul>
-                       </li>
-                              <li class="menu-item menu-item--has-submenu" data-role="touch-submenu" >
-                          <a title="ejemplo" class="menu-item__link" href="#" data-role="touch-submenu-deployer">Carreras</a>
-                          <ul class="submenu" >
-                             <li class="submenu__item"><a title="ejemplo" href="programa.html">Programa carrera</a></li>
-                             <li class="submenu__item"><a title="ejemplo" href="#">Ipsum</a></li>
-                          </ul>
-                       </li>
-                              <li class="menu-item menu-item--has-submenu" data-role="touch-submenu" >
-                          <a title="ejemplo" class="menu-item__link" href="#" data-role="touch-submenu-deployer">Repositorio</a>
-                          <ul class="submenu" >
-                             <li class="submenu__item"><a title="ejemplo" href="repositorio.html">Repositorio general</a></li>
-                             <li class="submenu__item"><a title="ejemplo" href="archivo-academicos.html">Archivo personas</a></li>
-                          </ul>
-                       </li>
-                       <li class="menu-item menu-item--has-submenu" data-role="touch-submenu" >
-                        <a title="ejemplo" class="menu-item__link" href="archivo-academicos.html" data-role="touch-submenu-deployer">Posts</a>
-                        <ul class="submenu" >
-                           <li class="submenu__item"><a title="ejemplo" href="single-academico.html">Single academico</a></li>
-                           <li class="submenu__item"><a title="ejemplo" href="single-post.html">Single post</a></li>
-                           <li class="submenu__item"><a title="ejemplo" href="single-post--no-thumbnail.html">Single post no imagen</a></li>
-                           <li class="submenu__item"><a title="ejemplo" href="single-post--evento.html">Single evento</a></li>
-                        </ul>
-                      </li>
-                        <li class="menu-item">
-                          <a title="ejemplo" class="menu-item__link" href="contacto.html">Contacto</a>
-                       </li>
-                           </ul>
-                           <ul class="nav-bar__menu nav-bar__menu--secondary">
-                              <li class="menu-item menu-item--under-blue menu-item--has-submenu" data-role="touch-submenu">
-                                   <a href="#" class="menu-item__link" title="title" data-role="touch-submenu-deployer">Estudiantes</a>
-                                   <ul class="submenu">
-                                       <span class="triangle triangle--left"></span>
-                                       <li class="submenu__item"><a href="#">Lorem</a></li>
-                                       <li class="submenu__item"><a href="#">ipsum</a></li>
-                                       <li class="submenu__item"><a href="#">Lorem</a></li>
-                                       <li class="submenu__item"><a href="#">ipsum</a></li>
-                                       <a href="#" class="button button--blue upper">Ir a Estudiantes</a>
-                                   </ul>
-                              </li>
-                              <li class="menu-item menu-item--has-submenu menu-item--under-red" data-role="touch-submenu">
-                                   <a href="#" class="menu-item__link" title="title" data-role="touch-submenu-deployer">Alumni</a>
-                                   <ul class="submenu">
-                                       <span class="triangle triangle--left"></span>
-                                       <li class="submenu__item"><a href="#">Lorem</a></li>
-                                       <li class="submenu__item"><a href="#">ipsum</a></li>
-                                       <li class="submenu__item"><a href="#">Lorem</a></li>
-                                       <li class="submenu__item"><a href="#">ipsum</a></li>
-                                       <a href="#" class="button button--blue upper">Ir a Almuni</a>
-                                   </ul>
-                              </li>
-                              <li class="menu-item menu-item--has-submenu menu-item--under-gray" data-role="touch-submenu">
-                                   <a href="#" class="menu-item__link" title="title" data-role="touch-submenu-deployer">Académicos</a>
-                                   <ul class="submenu">
-                                       <span class="triangle triangle--left"></span>
-                                       <li class="submenu__item"><a href="#">Lorem</a></li>
-                                       <li class="submenu__item"><a href="#">ipsum</a></li>
-                                       <li class="submenu__item"><a href="#">Lorem</a></li>
-                                       <li class="submenu__item"><a href="#">ipsum</a></li>
-                                       <a href="#" class="button button--blue upper">Ir a Académicos</a>
-                                   </ul>
-                              </li>
-                              <li class="menu-item menu-item--has-submenu menu-item--under-gold" data-role="touch-submenu">
-                                   <a href="#" class="menu-item__link" title="title" data-role="touch-submenu-deployer">Funcionarios</a>
-                                   <ul class="submenu">
-                                       <span class="triangle triangle--left"></span>
-                                       <li class="submenu__item"><a href="#">Lorem ipsum dolor sit amet</a></li>
-                                       <li class="submenu__item"><a href="#">ipsum</a></li>
-                                       <li class="submenu__item"><a href="#">Lorem</a></li>
-                                       <li class="submenu__item"><a href="#">ipsum</a></li>
-                                       <a href="#" class="button button--blue upper">Ir a Funcionarios</a>
-                                   </ul>
-                              </li>
-                              <li class="menu-item menu-item__search menu-item__hide">
-                                   <a href="#" class="menu-item__link" id="buscar" title="title"><span class="text-btn">Búsqueda</span> <span class="icon-elem icon-elem--search"></span></a>
-                              </li>
-                           </ul>
-                           <div class="search-box search-box--mobile">
-                              <div class="container">
-                                   <form action="" class="gridle-row">
-                                       <div class="gridle-gr-10 gridle-gr-12@tablet">
-                                           <input type="text" class="form-control__field" placeholder="¿Qué estás buscando?">
-                                       </div>
-                                       <div class="gridle-gr-2 gridle-gr-12@tablet no-padding--top_tablet">
-                                           <button class="button button--blue button--full-width no-margin">
-                                               Buscar <span class="icon-elem icon-elem--search"></span>
-                                           </button>
-                                       </div>
-                                   </form>
-                              </div>
-                           </div>
-                           <div class="nav-bar__auxmenu" data-area-name="menu-top@large"></div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-      </nav>
-      <div id="search-box--desktop" class="search-box">
-           <div class="container">
-               <form action="" class="gridle-row">
-                   <!--<span class="triangle triangle--right"></span>-->
-                   <div class="gridle-gr-10 gridle-gr-12@tablet">
-                       <input type="text" class="form-control__field" placeholder="¿Qué estás buscando?">
-                   </div>
-                   <div class="gridle-gr-2 gridle-gr-12@tablet">
-                       <button class="button button--blue button--full-width no-margin">
-                           Buscar <span class="icon-elem icon-elem--search"></span>
-                       </button>
-                   </div>
-               </form>
-           </div>
-      </div>
-   </header>
-
+<!--#include file="header.shtml" -->
     <section class="breadcrumbs">
         <div class="container">
             <ul class="list-inline list-inline--min-margin">
@@ -155,20 +10,20 @@
                     <span class="icon-elem icon-elem--chevron_right"></span>
                 </li>
                 <li  class="breadcrumbs__item breadcrumbs__item--current">
-                    <a href="#" class="breadcrumbs__link">Repositorio</a>
+                    <a href="#" class="breadcrumbs__link">Al día</a>
                 </li>
             </ul>
         </div>
     </section>
 
     <main>
-        <section class="main main-full main-full--min">
+        <section class="main main-full main-full--min" style="background-image: url(../images/img/img_aldia.png)">
             <div class="gridle-row">
                 <div class="gridle-gr-12 no-padding">
                     <div class="main-full__body">
                         <div class="container">
                             <!--<img src="images/img/16587045_973883612742458_6025084632170135563_o.jpeg" alt="">-->
-                            <h1 class="common-box__title--tallest main-full__title">Repositorio.</h1>
+                            <h1 class="common-box__title--tallest main-full__title">Al día.</h1>
                             <p class="common-box__excerpt--big main-full__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus natus deserunt, eaque accusamus necessitatibus, odio quas totam ullam unde illo. Totam dignissimos eligendi distinctio, consequatur doloribus perspiciatis ipsum fugiat soluta!</p>
                         </div>
                     </div>
@@ -356,7 +211,7 @@
                         </section>
                     </div>
                     <div class="gridle-gr-3 gridle-gr-12@tablet">
-                        <aside class="common-box bg-red">
+                        <aside class="common-box bg-main-dark">
                             <div class="common-box__body common-box__body--aside">
                                 <h2 class="common-box__title--serif common-box__title--big common-box__title--big-white">Titulo de sidebar lorem ipsum</h2>
                                 <p class="common-box__excerpt common-box__excerpt--aside">
@@ -375,108 +230,4 @@
             </div>
         </section>
     </main>
-    
-    <footer class="footer-bar">
-     <div class="footer-bar--primary">
-         <div class="container">
-             <div class="gridle-row">
-                 <div class="gridle-gr-3 gridle-gr-12@large no-padding">
-                     <a href="index.html" class="app-brand">
-                         <img src="images/logos/logoILCL_white.svg" alt="title">
-                     </a>
-                     <div class="footer-bar__detalle">
-                         <p><span class="icon-elem icon-elem--place"> </span>Av. El bosque 123, Viña del mar, Chile</p>
-                         <p><span class="icon-elem icon-elem--phone"> </span>Lorem ipsum el teléfono</p>
-                         <p><span class="icon-elem icon-elem--mail_outline"> </span>Lorem ipsum el correo</p>
-                     </div>
-                     <p class="footer-bar__social-link">
-                         <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--mail_outline"></a>
-                         <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--facebook"></a>
-                         <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--twitter"></a>
-                         <a href="#" title="titulo" class="icon-elem icon-elem--footer icon-elem--linkedin"></a>
-                     </p>
-                 </div>
-                 <div class="gridle-gr-2 gridle-prefix-1 gridle-gr-3@large gridle-gr-12@tablet gridle-prefix-0@large no-padding--vertical">
-                     <ul class="normal-list upper">
-                         <li>
-                             <a href="#">Sobre el ilcl</a>
-                         </li>
-                         <li>
-                             <a href="#">Investigación</a>
-                         </li>
-                         <li>
-                             <a href="#">ILCL en Contexto</a>
-                         </li>
-                     </ul>
-                 </div>
-                 <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-6@tablet no-padding--vertical">
-                     <ul class="normal-list">
-                         <li>
-                             <a href="#">Carreras</a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                     </ul>
-                 </div>
-                 <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-6@tablet no-padding--vertical">
-                     <ul class="normal-list">
-                         <li>
-                             <a href="#">Postgrados </a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                     </ul>
-                 </div>
-                 <div class="gridle-gr-2 gridle-gr-3@large gridle-gr-12@tablet no-padding--vertical">
-                     <ul class="normal-list footer-bar__links">
-                         <li>
-                             <a href="#">Links</a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                         <li>
-                             <a href="#">Lorem ipsum dolor sit amet</a>
-                         </li>
-                     </ul>
-                 </div>
-             </div>
-             <div class="gridle-row">
-                 <div class="gridle-gr-6 gridle gridle-prefix-3 gridle-gr-12@large gridle-prefix-0@large no-padding font-centered">
-                     <ul class="list-inline personas-box no-padding--bottom upper">
-                         <li><a href="#" class="button button--sq button--blue">Estudiantes</a></li>
-                         <li><a href="#" class="button button--sq button--red">Alumni</a></li>
-                         <li><a href="#" class="button button--sq button--gray">Académicos</a></li>
-                         <li><a href="#" class="button button--sq button--gold">Funcionarios</a></li>
-                     </ul>
-                 </div>
-             </div>
-         </div>
-     </div>
-     <div class="footer-bar--secondary font-centered">
-         <p>&copy; Ponitificia Universidad Católica de Valparaíso 2017</p>
-     </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="scripts/min/main.min.js"></script>
-   <script src="scripts/plugins/stickyParent.js"></script>
-    <script src="scripts/main.js"></script>
-</body>
-</html>
+<!--#include file="footer.shtml" -->
