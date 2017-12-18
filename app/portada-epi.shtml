@@ -1,0 +1,78 @@
+<!--#include file="header.shtml" -->
+  <main>
+    <section class="main main-full main-full--min horizon" style="background-image: url(../images/img/portada_epi.png)">
+        <div class="gridle-row">
+            <div class="gridle-gr-12 no-padding">
+                <div class="main-full__body">
+                    <div class="container">
+                        <!--<img src="images/img/16587045_973883612742458_6025084632170135563_o.jpeg" alt="">-->
+                        <h1 class="common-box__title--tallest main-full__title">Epidemiología</h1>
+                        <p class="common-box__excerpt--big main-full__excerpt">Explora nuestra información en epidemiologia de enfermedades infecciosas (EI). Encontrarás información concisa y confiable. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="horizon">
+      <div class="container">
+        <div class="gridle-row">
+          <div class="gridle-gr-4 gridle-gr-10@large gridle-prefix-1@large gridle-gr-12@tablet gridle-prefix-0@tablet no-padding--vertical">
+            <article class="common-box common-box--simple">
+              <figure class="common-box__figure">
+                <img src="images/img/img_prueba_1.png" alt="titulo" />
+              </figure>
+              <div class="common-box__body">
+                <a href="portadilla.shtml" title="title">
+                  <h2 class="common-box__title common-box__title--medium no-padding--top">Chile</h2>
+                </a>
+                <p class="common-box__excerpt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
+                </p>
+                <div class="common-box__extra">
+                  <a href="portadilla.shtml" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="gridle-gr-4 gridle-gr-10@large gridle-prefix-1@large gridle-gr-12@tablet gridle-prefix-0@tablet no-padding--vertical">
+            <article class="common-box common-box--simple">
+              <figure class="common-box__figure">
+                <img src="images/img/img_prueba_2.png" alt="titulo" />
+              </figure>
+              <div class="common-box__body">
+                <a href="portadilla.shtml" title="title">
+                  <h2 class="common-box__title common-box__title--medium no-padding--top">América Latina y el Mundo</h2>
+                </a>
+                <p class="common-box__excerpt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
+                </p>
+                <div class="common-box__extra">
+                  <a href="portadilla.shtml" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="gridle-gr-4 gridle-gr-10@large gridle-prefix-1@large gridle-gr-12@tablet gridle-prefix-0@tablet no-padding--vertical">
+            <article class="common-box common-box--simple">
+              <figure class="common-box__figure">
+                <img src="images/img/img_prueba_3.png" alt="titulo" />
+              </figure>
+              <div class="common-box__body">
+                <a href="portadilla.shtml" title="title">
+                  <h2 class="common-box__title common-box__title--medium no-padding--top">Investigación UC</h2>
+                </a>
+                <p class="common-box__excerpt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, neque praesentium doloremque vitae doloribus quam nostrum dicta, recusandae ducimus inventore maiores, quia cupiditate consequuntur quo perspiciatis aspernatur dolorum sit cum!
+                </p>
+                <div class="common-box__extra">
+                  <a href="portadilla.shtml" class="button button--minimal">Ver más<span class="icon-elem icon-elem--chevron_right"></span></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<!--#include file="footer.shtml" -->

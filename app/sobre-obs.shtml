@@ -104,7 +104,7 @@
                             <img src="https://placehold.it/900x400" class="cover-img" alt="titulo" />
                             <figcaption>Lorem ipsum dolor sit amet</figcaption>
                         </figure>
-                        
+
                         <div class="archive__button font-centered">
                           <a href="#" class="button button--blue button--fixed">Cargar más</a>
                         </div>
