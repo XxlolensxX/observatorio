@@ -30,8 +30,13 @@
                   <li class="menu-item menu-item--has-submenu">
                     <a href="#" title="ejemplo">La Universidad</a>
                     <ul class="submenu">
-                      <li class="submenu__item"><a title="ejemplo" href="#">Submenu Item</a></li>
-                      <li class="submenu__item"><a title="ejemplo" href="#">Submenu Item</a></li>
+                      <li class="submenu__item"><a title="ejemplo" href="al-dia.shtml">Al día</a></li>
+                      <li class="submenu__item"><a title="ejemplo" href="plaza-publica.shtml">Plaza Pública</a></li>
+                      <li class="submenu__item"><a title="ejemplo" href="portada-epi.shtml">Portada Epidemiología</a></li>
+                      <li class="submenu__item"><a title="ejemplo" href="contacto.shtml">Contacto</a></li>
+                      <li class="submenu__item"><a title="ejemplo" href="portadilla.shtml">Portada Chi,Lat,Inv</a></li>
+                      <li class="submenu__item"><a title="ejemplo" href="single-enfermedad.shtml">Ficha Enf</a></li>
+                      <li class="submenu__item"><a title="ejemplo" href="single-investigacion.shtml">Ficha Inv</a></li>
                     </ul>
                   </li>
                   <li class="menu-item menu-item--has-submenu">
