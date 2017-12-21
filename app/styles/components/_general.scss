@@ -303,13 +303,13 @@ body{
                         }
                     }
                     &:hover{
-                        background: $color_main_dark;
+                        background: $color_main_light;
                     }
                     @include media (large-down){
                         display: none;
                     }
                     &.active{
-                        background: $color_red;
+                        background: $color_gold;
                         &:hover{
                             text-decoration: none;
                         }
@@ -500,6 +500,8 @@ body{
                 }
             }
         }
+
+
         &__title{
             padding-bottom: 1rem;
             font-family: $base_sans_font_family;
@@ -507,8 +509,20 @@ body{
         &__body{
             background: rgba($color_white, 0.9);
             color: $color_black;
+
+          &--mod{
+              padding: +2;
+              background: transparent;
+              color: $color_white;
+              text-align: center;
+
+              [class=common-box]{
+                font-weight: 400;
+              }
+            }
         }
     }
+
     &-carrera{
         .common-box{
             &__meta{
@@ -538,7 +552,7 @@ body{
             background-position: center bottom;
             background-size: cover;
             background-repeat: no-repeat;
-            filter: grayscale(100%);
+            filter: grayscale(1%);
             position: absolute;
             width: 100%;
             height: 100%;
@@ -547,7 +561,7 @@ body{
         }
         &__content{
             position: relative;
-            background: rgba($color_white, .5);
+            background: rgba($color_white, .9  );
             z-index: 2;
             padding: 2rem;
             &__holder{
@@ -1136,6 +1150,10 @@ article + article { border-top: 1px solid $color_grey_light; }
         &__label{
             font-size: map-get($text_sizes, regular);
             font-weight: $weight_bold;
+
+            span{
+              color: $color_red_light;
+            }
         }
         &__field{
             font-size: map-get($text_sizes, tiny);
@@ -1494,7 +1512,7 @@ aside{
 }
 
 .form-control__field{
-  border: none;
+  /*border: none;*/
   height: 40px;
 }
 
@@ -1543,4 +1561,91 @@ aside{
   .archive__button{
     margin-top: 2rem;
   }
+}
+
+
+.mt-32{
+  margin-top: 32px;
+}
+
+
+.investigadores-asociados{
+  .slider{
+    margin-bottom: 25px;
+   &__items{
+
+   }
+   &__slide{
+     .common-box--fancy{
+       padding: 0;
+       .common-box__body{
+         background-color: rgba(47,84,158,.86);
+         padding: 32px;
+
+         .common-box__meta{
+           font-size: map-get($text_sizes, regular);
+           font-weight: 400;
+           display: flex;
+           a{
+           color: $color_white;
+           }
+           span{
+             color: $color_yellow;
+             margin-top: 3px;
+           }
+         }
+       }
+     }
+   }
+   &__arrows{
+     top: 40%;
+     padding: 0 8px;
+   }
+   &__arrow{
+     background-color: rgba(51,51,51,.7);
+     border-radius: 300px;
+     width: 35px;
+     height: 35px;
+     position: relative;
+
+     &::before{
+       position:absolute;
+       top: 0;
+       left: 0;
+     }
+   }
+  &__bullets{
+       position: absolute;
+       z-index: 9999;
+       top: 56%;
+    }
+  &__bullet{
+    width: 8px;
+    height: 8px;
+    background-color: $color_main_dark;
+
+    &--current{
+      border: none;
+      background-color: #FCD900;
+      }
+    }
+  }
+}
+
+.responsive-video{
+  width: 100%;
+  position: relative;
+
+  iframe{
+    width: 100%;;
+  }
+}
+
+.relacionadas-academicos{
+  article{
+    border-top: none;
+  }
+}
+.b-bottom{
+  border-bottom: 1px solid #ccc;
 }

@@ -1,9 +1,25 @@
 <!--#include file="header.shtml" -->
+<section class="breadcrumbs">
+    <div class="container">
+        <ul class="list-inline list-inline--min-margin">
+            <li class="breadcrumbs__item">
+                <span class="icon-elem icon-elem--home"></span>
+                <a href="index.html" class="breadcrumbs__link">Inicio</a></li>
+            <li>
+                <span class="icon-elem icon-elem--chevron_right"></span>
+            </li>
+            <li class="breadcrumbs__item breadcrumbs__item--current">
+                <a href="#" class="breadcrumbs__link">Portada Epidemiologia</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
   <main>
-    <section class="main main-full main-full--min horizon" style="background-image: url(../images/img/portada_epi.png)">
+    <section class="main main-full main-full--max main-full--ghost" style="background-image: url(../images/img/portada_epi.png)">
         <div class="gridle-row">
             <div class="gridle-gr-12 no-padding">
-                <div class="main-full__body">
+                <div class="main-full__body main-full__body--mod main">
                     <div class="container">
                         <!--<img src="images/img/16587045_973883612742458_6025084632170135563_o.jpeg" alt="">-->
                         <h1 class="common-box__title--tallest main-full__title">Epidemiología</h1>
@@ -14,7 +30,7 @@
         </div>
     </section>
 
-    <section class="horizon">
+    <section class="horizon mt-32">
       <div class="container">
         <div class="gridle-row">
           <div class="gridle-gr-4 gridle-gr-10@large gridle-prefix-1@large gridle-gr-12@tablet gridle-prefix-0@tablet no-padding--vertical">

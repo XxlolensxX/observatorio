@@ -10,40 +10,82 @@
                     <span class="icon-elem icon-elem--chevron_right"></span>
                 </li>
                 <li class="breadcrumbs__item">
-                    <a href="index.html" class="breadcrumbs__link">Chile</a>
+                    <a href="index.html" class="breadcrumbs__link">Investigación</a>
                 </li>
                 <li>
                     <span class="icon-elem icon-elem--chevron_right"></span>
                 </li>
                 <li  class="breadcrumbs__item breadcrumbs__item--current">
-                    <a href="#" class="breadcrumbs__link">Lepra</a>
+                    <a href="#" class="breadcrumbs__link">Tuberculosis</a>
                 </li>
             </ul>
         </div>
     </section>
 
     <main>
-        <section class="main main-academico horizon">
+        <section class="main main-investigador horizon">
             <div class="container">
                 <div class="gridle-row">
-                    <div class="gridle-hide gridle-gr-6 gridle-prefix-3 gridle-visible@tablet no-padding--bottom">
-                        <figure class="common-box__figure">
-                            <img src="https://placehold.it/300x300" alt="title"/>
-                        </figure>
-                    </div>
+                    <div class="gridle-gr-3 gridle-gr-12@tablet no-padding--left no-padding--at_tablet investigadores-asociados">
+                      <div class="slider" data-module="slider" style="visibility: visible; backface-visibility: hidden; perspective: 1000px;">
+                        <div class="slider__items" data-role="slider-list" style="width: 813px;">
+                          <div class="slider__slide" data-role="slider-slide" data-index="0" data-offset="0" style="width: 271px; float: left; transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                            <article class="common-box common-box--featured common-box--fancy">
+									            <figure class="common-box__figure">
+										            <img src="images/img/slider-single.png">
+									            </figure>
+									              <div class="common-box__body">
+										              <h2 class="common-box__meta">
+                                    <span class="icon-elem icon-elem--navigate_next"></span>
+											              <a href="#">Investigadora principal :  Dra. María Elvira Balcells</a>
+										              </h2>
+									              </div>
+								            </article>
+                          </div>
+                          <div class="slider__slide" data-role="slider-slide" data-index="1" data-offset="-271" style="width: 271px; float: left; transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                            <article class="common-box common-box--featured common-box--fancy">
+									            <figure class="common-box__figure">
+										            <img src="images/img/slider-single.png">
+									            </figure>
+									              <div class="common-box__body">
+										              <h2 class="common-box__meta">
+                                    <span class="icon-elem icon-elem--navigate_next"></span>
+											              <a href="#">Investigadora principal :  Dra. María Elvira Balcells</a>
+										              </h2>
+									              </div>
+								            </article>
+                          </div>
+                          <div class="slider__slide" data-role="slider-slide" data-index="2" data-offset="-542" style="width: 271px; float: left; transition-duration: 0ms; transform: translate(-542px, 0px) translateZ(0px);">
+                            <article class="common-box common-box--featured common-box--fancy">
+									            <figure class="common-box__figure">
+										            <img src="images/img/slider-single.png">
+									            </figure>
+									              <div class="common-box__body">
+										              <h2 class="common-box__meta">
+                                    <span class="icon-elem icon-elem--navigate_next"></span>
+											              <a href="#">Investigadora principal :  Dra. María Elvira Balcells</a>
+										              </h2>
+									              </div>
+								            </article>
+                          </div>
+                        </div>
+
+                        <div class="slider__arrows">
+									        <button class="slider__arrow slider__arrow--prev" data-role="slider-arrow" data-direction="prev"></button>
+									        <button class="slider__arrow slider__arrow--next" data-role="slider-arrow" data-direction="next"></button>
+								        </div>
+
+                        <div class="slider__bullets font-centered">
+                          <button class="slider__bullet slider__bullet--current" data-role="slider-bullet" data-target="0"></button>
+                          <button class="slider__bullet" data-role="slider-bullet" data-target="1"></button>
+                          <button class="slider__bullet" data-role="slider-bullet" data-target="2"></button>
+                      </div>
                 </div>
-                <div class="gridle-row">
-                    <div class="gridle-gr-3 gridle-gr-12@tablet no-padding--left no-padding--at_tablet">
-                        <article class="common-box">
-                            <figure class="gridle-hide@tablet common-box__figure">
-                                <img src="https://placehold.it/300x300" alt="title"/>
-                            </figure>
-                            <div class="common-box__body bg-gray-light">
-                              <p class="common-box__meta--regular"><span class="icon-elem icon-elem--gold icon-elem--mail_outline"> </span>Investigadora principal: Dra. María Elvira Balcells</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="gridle-gr-6 gridle-gr-12@tablet">
+                <figure class="common-box__figure">
+                    <img src="images/img/img_prueba_4.png" alt="title"/>
+                </figure>
+            </div>
+                    <div class="gridle-gr-9 gridle-gr-12@tablet">
                         <div class="content-box no-border no-padding--vertical">
                             <h2 class="common-box__title--serif common-box__title--medium">Grados académicos</h2>
                             <ul class="simple-list no-padding">
@@ -72,47 +114,6 @@
                             <h2 class="common-box__title--serif common-box__title--medium">Perfil profesional</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid id facilis, minus corporis dicta incidunt similique voluptates nisi sint a repellendus in impedit doloremque nostrum eius veniam sequi voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod molestiae unde fuga aliquid omnis voluptatum eveniet, asperiores culpa repudiandae sit voluptatibus saepe at, totam fugit eligendi quae nobis minus eaque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ipsam hic, dolor ut deleniti earum tempore voluptas ducimus aliquam, pariatur! Corporis consequuntur dolores asperiores assumenda ratione, perspiciatis sapiente, vero beatae.</p>
                         </div>
-                    </div>
-                    <div class="gridle-gr-3 gridle-gr-12@tablet">
-                        <aside class="sidebar-contacto">
-                            <h2 class="common-box__title--serif common-box__title--medium">Contacte al académico</h2>
-                            <div class="content-box bg-gray no-border">
-                                <form action="" class="gridle-row contact-form" data-module="common-form" data-validizr-handled="true">
-                                    <div class="gridle-gr-12">
-                                        <div class="form-control" data-error-message="Mensaje de error">
-                                            <label for="academiconombre" class="form-control__label">Nombre*</label>
-                                            <input type="text" class="form-control__field" name="academiconombre" id="academiconombre" placeholder="Ingrese su nomre y apellido" data-cutom-validation="onlyString" required>
-                                            <span class="form-control__msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                        </div>
-                                    </div>
-                                    <div class="gridle-gr-12">
-                                        <div class="form-control" data-error-message="Mensaje de error">
-                                            <label for="academicoemail" class="form-control__label">E-mail*</label>
-                                            <input type="email" class="form-control__field" name="academicoemail" id="academicoemail" placeholder="Ingrese su email" data-cutom-validation="onlyString" required>
-                                            <span class="form-control__msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                        </div>
-                                    </div>
-                                    <div class="gridle-gr-12">
-                                        <div class="form-control" data-error-message="Mensaje de error">
-                                            <label for="academicomensaje" class="form-control__label">Motivo de contacto*</label>
-                                            <textarea name="academicomensaje" id="academicomensaje" rows="8" class="form-control__field"></textarea>
-                                            <span class="form-control__msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                        </div>
-                                    </div>
-                                    <div class="gridle-gr-12">
-                                        <button type="submit" class="button button--blue button--full-width">Contactar</button>
-                                        <span class="form-control__msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="content-box no-border">
-                                <h2 class="common-box__title">Accesos</h2>
-                                <ul class="normal-list no-padding">
-                                    <li><a href="#">Calendario académico</a> <span class="icon-elem icon-elem--gold icon-elem--chevron_right"></span></li>
-                                    <li><a href="#">Navegador académico</a> <span class="icon-elem icon-elem--gold icon-elem--chevron_right"></span></li>
-                                </ul>
-                            </div>
-                        </aside>
                     </div>
                 </div>
             </div>

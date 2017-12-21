@@ -21,7 +21,7 @@
                     <div class="main-full__body font-centered">
                         <div class="container">
                             <!--<img src="images/img/16587045_973883612742458_6025084632170135563_o.jpeg" alt="title">-->
-                            <h1 class="common-box__title--tallest main-full__title">Académicos.</h1>
+                            <h1 class="common-box__title--tallest main-full__title">Plaza Pública</h1>
                             <p class="main-full__excerpt common-box__excerpt--big no-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus natus deserunt, eaque accusamus necessitatibus, odio quas totam ullam unde illo. Totam dignissimos eligendi distinctio, consequatur doloribus perspiciatis ipsum fugiat soluta!</p>
                         </div>
                     </div>
@@ -33,198 +33,140 @@
             <div class="container">
                 <div class="gridle-row">
                     <div class="gridle-gr-4 gridle-gr-12@tablet no-padding--top">
-                        <article class="common-box">
-                            <figure class="common-box__figure gridle-hide@tablet">
-                                <img src="https://placehold.it/400x300" alt="title"/>
-                            </figure>
-                            <a href="#" class="common-box__title common-box__title--full">Lorem ipsum title <span class="icon-elem icon-elem--chevron_right"></span></a>
-                            <div class="common-box__body common-box__body--fullw gridle-hide@tablet">
-                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde distinctio corrupti, expedita accusamus nesciunt nobis asperiores.</p>
-                            </div>
-                        </article>
+                        <div class="responsive-video">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/2MpUj-Aua48" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="gridle-gr-4 gridle-gr-12@tablet no-padding--top">
-                        <article class="common-box">
-                            <figure class="common-box__figure gridle-hide@tablet">
-                                <img src="https://placehold.it/400x300" alt="title"/>
-                            </figure>
-                            <a href="#" class="common-box__title common-box__title--full">Lorem ipsum title <span class="icon-elem icon-elem--chevron_right"></span></a>
-                            <div class="common-box__body common-box__body--fullw gridle-hide@tablet">
-                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde distinctio corrupti, expedita accusamus nesciunt nobis asperiores.</p>
-                            </div>
-                        </article>
+                        <div class="responsive-video">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/2MpUj-Aua48" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="gridle-gr-4 gridle-gr-12@tablet no-padding--top">
-                        <article class="common-box">
-                            <figure class="common-box__figure gridle-hide@tablet">
-                                <img src="https://placehold.it/400x300" alt="title"/>
-                            </figure>
-                            <a href="#" class="common-box__title common-box__title--full">Lorem ipsum title <span class="icon-elem icon-elem--chevron_right"></span></a>
-                            <div class="common-box__body common-box__body--fullw gridle-hide@tablet">
-                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde distinctio corrupti, expedita accusamus nesciunt nobis asperiores.</p>
-                            </div>
-                        </article>
+                        <div class="responsive-video">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/2MpUj-Aua48" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="gridle-gr-4 gridle-gr-12@tablet no-padding--top">
+                        <div class="responsive-video">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/2MpUj-Aua48" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="gridle-gr-4 gridle-gr-12@tablet no-padding--top">
+                        <div class="responsive-video">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/2MpUj-Aua48" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
-                <div class="gridle-row">
-                    <div class="gridle-gr-4 gridle-gr-12@tablet no-padding--top">
-                        <article class="common-box">
-                            <figure class="common-box__figure gridle-hide@tablet">
-                                <img src="https://placehold.it/400x300" alt="title"/>
-                            </figure>
-                            <a href="#" class="common-box__title common-box__title--full">Lorem ipsum title <span class="icon-elem icon-elem--chevron_right"></span></a>
-                            <div class="common-box__body common-box__body--fullw gridle-hide@tablet">
-                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde distinctio corrupti, expedita accusamus nesciunt nobis asperiores.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="gridle-gr-4 gridle-gr-12@tablet no-padding--top">
-                        <article class="common-box">
-                            <figure class="common-box__figure gridle-hide@tablet">
-                                <img src="https://placehold.it/400x300" alt="title"/>
-                            </figure>
-                            <a href="#" class="common-box__title common-box__title--full">Lorem ipsum title <span class="icon-elem icon-elem--chevron_right"></span></a>
-                            <div class="common-box__body common-box__body--fullw gridle-hide@tablet">
-                                <p class="common-box__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde distinctio corrupti, expedita accusamus nesciunt nobis asperiores.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="gridle-gr-4 gridle-gr-12@tablet no-padding--top">
-                        <article class="common-box common-box__accesos">
-                            <figure class="common-box__figure gridle-hide@tablet">
-                                <img src="https://placehold.it/400x300" alt="title"/>
-                            </figure>
-                            <a href="#" class="common-box__title common-box__title--full">Accesos</a>
-                            <div class="common-box__body common-box__body--fullw">
-                                <ul class="simple-list">
-                                    <li><a href="#">Link 1</a></li>
-                                    <li><a href="#">Link 2</a></li>
-                                    <li><a href="#">Link 3</a></li>
-                                </ul>
-                            </div>
-                        </article>
-                    </div>
+                <div class="archive__button">
+                  <a href="#" class="button button--blue button--fixed">Cargar más</a>
                 </div>
             </div>
         </section>
 
-        <section class="horizon horizon-mintop">
+        <section class="horizon horizon-mintop relacionadas-academicos">
             <div class="container">
-                <h2 class="common-box__title common-box__title--serif common-box__title--midtall">Horarios</h2>
-                <div class="common-box common-box__sheet">
-                    <iframe src="https://docs.google.com/spreadsheets/d/1Orv2WyTPe47gTK-fomh-b436HwnQYTUuIcur5z9R1tk/pubhtml?gid=0&amp;single=true&amp;widget=false&amp;headers=false"></iframe>
-                </div>
-                <div class="common-box__sheet--mobile">
-                    <a href="#">Abrir en google drive</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="horizon horizon-mintop bg-gray">
-            <div class="container">
+              <h2 class="common-box__title common-box__title--serif common-box__title--midtall">Nuestros académicos en las noticias</h2>
                 <div class="gridle-row">
-                    <div class="gridle-gr-6 gridle-gr-12@tablet">
-                        <h2 class="common-box__title common-box__title--serif common-box__title--midtall">Agenda</h2>
-                        <article class="common-box common-box--publicacion border-gray--light no-padding--top">
-                            <div class="gridle-row">
-                                <div class="gridle-gr-2 gridle-gr-3@tablet o-padding--horizontal">
-                                    <a href="#" class="common-box__date" title="title">
-                                        27 <span class="common-box__date--month">feb</span>
-                                    </a>
-                                </div>
-                                <div class="gridle-gr-10 gridle gridle-gr-9@tablet no-padding--vertical">
-                                    <div class="common-box__body">
-                                        <p class="common-box__meta">
-                                            Lorem, ipsum
-                                        </p>
-                                        <a href="#" title="title">
-                                            <h2 class="common-box__title--news">El título Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-                                        </a>
-                                        <p class="common-box__meta font-black">
-                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
-                                            <a href="#">El autor</a>
-                                        </p>
-                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>15:00 a 18:00 hrs.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="common-box common-box--publicacion no-padding--top">
-                            <div class="gridle-row">
-                                <div class="gridle-gr-2 gridle-gr-3@tablet o-padding--horizontal">
-                                    <a href="#" class="common-box__date" title="title">
-                                        27 <span class="common-box__date--month">feb</span>
-                                    </a>
-                                </div>
-                                <div class="gridle-gr-10 gridle gridle-gr-9@tablet no-padding--vertical">
-                                    <div class="common-box__body">
-                                        <p class="common-box__meta">
-                                            Lorem, ipsum
-                                        </p>
-                                        <a href="#" title="title">
-                                            <h2 class="common-box__title--news">El título Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-                                        </a>
-                                        <p class="common-box__meta font-black">
-                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
-                                            <a href="#">El autor</a>
-                                        </p>
-                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>15:00 a 18:00 hrs.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="gridle-gr-6 gridle-gr-12@tablet">
-                        <h2 class="common-box__title common-box__title--serif common-box__title--midtall">Publicaciones</h2>
-                        <article class="common-box common-box--publicacion border-gray--light no-padding--top">
-                            <div class="gridle-row">
-                                <div class="gridle-gr-2 gridle-gr-3@tablet no-padding--horizontal">
-                                    <a href="#" class="common-box__file" title="title">
-                                        pdf
-                                    </a>
-                                </div>
-                                <div class="gridle-gr-10 gridle-gr-9@tablet no-padding--vertical">
-                                    <div class="common-box__body">
-                                        <p class="common-box__meta">
-                                            Lorem, ipsum
-                                        </p>
-                                        <a href="#" title="title">
-                                            <h2 class="common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptatibus impedit quisquam deleniti quos distinctio debitis, atque mollitia temporibus! Dolorum velit asperiores.</h2>
-                                        </a>
-                                        <p class="common-box__meta font-black">
-                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
-                                            <a href="#">El autor</a>
-                                        </p>
-                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>11 septiembre 2017</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="common-box common-box--publicacion no-padding--top">
-                            <div class="gridle-row">
-                                <div class="gridle-gr-2 gridle-gr-3@tablet no-padding--horizontal">
-                                    <a href="#" class="common-box__file" title="title">
-                                        pdf
-                                    </a>
-                                </div>
-                                <div class="gridle-gr-10 gridle-gr-9@tablet no-padding--vertical">
-                                    <div class="common-box__body">
-                                        <p class="common-box__meta">
-                                            Lorem, ipsum
-                                        </p>
-                                        <a href="#" title="title">
-                                            <h2 class="common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, sit dolorem optio ea unde aspernatur, in distinctio, fuga ratione doloremque minima. Itaque officiis velit, reiciendis laudantium. Autem, qui quis dolor.</h2>
-                                        </a>
-                                        <p class="common-box__meta font-black">
-                                            <span class="icon-elem icon-elem--gold icon-elem--person common-box__metaicon"> </span>
-                                            <a href="#">El autor</a>
-                                        </p>
-                                        <p class="common-box__meta"><span class="icon-elem icon-elem--gold icon-elem--schedule common-box__metaicon"> </span>11 septiembre 2017</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+                  <article class="common-box common-box--horizontal gridle-gr-6 gridle-gr-12@tablet">
+                      <div class="gridle-row b-bottom">
+                          <div class="gridle-gr-3 gridle-gr-12@tablet no-padding--horizontal">
+                              <figure class="common-box__figure">
+                                  <a href="#">
+                                      <img src="https://placehold.it/300x200" alt="title"/>
+                                  </a>
+                              </figure>
+                          </div>
+                          <div class="gridle-gr-9 gridle-gr-12@tablet no-padding--top_tablet no-padding--horizontal">
+                              <div class="common-box__body no-padding--vertical">
+                                  <p class="common-box__meta">Lorem ipsum</p>
+                                  <a href="#" title="title">
+                                      <h2 class="common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                  </a>
+                                  <p class="common-box__meta">
+                                      <span class="icon-elem icon-elem--color-main-light icon-elem--person common-box__metaicon"> </span>
+                                      <a class="font-black" href="#">El autor</a>
+                                  </p>
+                                  <p class="common-box__meta"><span class="icon-elem icon-elem--color-main-light icon-elem--schedule common-box__metaicon"> </span>11 Septiembre 2017</p>
+                              </div>
+                          </div>
+                      </div>
+                  </article>
+                  <article class="common-box common-box--horizontal gridle-gr-6 gridle-gr-12@tablet">
+                      <div class="gridle-row b-bottom">
+                          <div class="gridle-gr-3 gridle-gr-12@tablet no-padding--horizontal">
+                              <figure class="common-box__figure">
+                                  <a href="#">
+                                      <img src="https://placehold.it/300x200" alt="title"/>
+                                  </a>
+                              </figure>
+                          </div>
+                          <div class="gridle-gr-9 gridle-gr-12@tablet no-padding--top_tablet no-padding--horizontal">
+                              <div class="common-box__body no-padding--vertical">
+                                  <p class="common-box__meta">Lorem ipsum</p>
+                                  <a href="#" title="title">
+                                      <h2 class="common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                  </a>
+                                  <p class="common-box__meta">
+                                      <span class="icon-elem icon-elem--color-main-light icon-elem--person common-box__metaicon"> </span>
+                                      <a class="font-black" href="#">El autor</a>
+                                  </p>
+                                  <p class="common-box__meta"><span class="icon-elem icon-elem--color-main-light icon-elem--schedule common-box__metaicon"> </span>11 Septiembre 2017</p>
+                              </div>
+                          </div>
+                      </div>
+                  </article>
+                  <article class="common-box common-box--horizontal gridle-gr-6 gridle-gr-12@tablet">
+                      <div class="gridle-row b-bottom">
+                          <div class="gridle-gr-3 gridle-gr-12@tablet no-padding--horizontal">
+                              <figure class="common-box__figure">
+                                  <a href="#">
+                                      <img src="https://placehold.it/300x200" alt="title"/>
+                                  </a>
+                              </figure>
+                          </div>
+                          <div class="gridle-gr-9 gridle-gr-12@tablet no-padding--top_tablet no-padding--horizontal">
+                              <div class="common-box__body no-padding--vertical">
+                                  <p class="common-box__meta">Lorem ipsum</p>
+                                  <a href="#" title="title">
+                                      <h2 class="common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                  </a>
+                                  <p class="common-box__meta">
+                                      <span class="icon-elem icon-elem--color-main-light icon-elem--person common-box__metaicon"> </span>
+                                      <a class="font-black" href="#">El autor</a>
+                                  </p>
+                                  <p class="common-box__meta"><span class="icon-elem icon-elem--color-main-light icon-elem--schedule common-box__metaicon"> </span>11 Septiembre 2017</p>
+                              </div>
+                          </div>
+                      </div>
+                  </article>
+                  <article class="common-box common-box--horizontal gridle-gr-6 gridle-gr-12@tablet">
+                      <div class="gridle-row b-bottom">
+                          <div class="gridle-gr-3 gridle-gr-12@tablet no-padding--horizontal">
+                              <figure class="common-box__figure">
+                                  <a href="#">
+                                      <img src="https://placehold.it/300x200" alt="title"/>
+                                  </a>
+                              </figure>
+                          </div>
+                          <div class="gridle-gr-9 gridle-gr-12@tablet no-padding--top_tablet no-padding--horizontal">
+                              <div class="common-box__body no-padding--vertical">
+                                  <p class="common-box__meta">Lorem ipsum</p>
+                                  <a href="#" title="title">
+                                      <h2 class="common-box__title--news">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                                  </a>
+                                  <p class="common-box__meta">
+                                      <span class="icon-elem icon-elem--color-main-light icon-elem--person common-box__metaicon"> </span>
+                                      <a class="font-black" href="#">El autor</a>
+                                  </p>
+                                  <p class="common-box__meta"><span class="icon-elem icon-elem--color-main-light icon-elem--schedule common-box__metaicon"> </span>11 Septiembre 2017</p>
+                              </div>
+                          </div>
+                      </div>
+                  </article>
+                </div>
+                <div class="archive__button">
+                  <a href="#" class="button button--blue button--full">Ver más noticias</a>
                 </div>
             </div>
         </section>

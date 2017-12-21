@@ -369,6 +369,9 @@ ol.normal-list{
 	&--big{
         font-size: 3rem;
     }
+	&--mlight{
+		color: $color_main_light;
+	}
 }
 .border-bottom{
 	&--white{

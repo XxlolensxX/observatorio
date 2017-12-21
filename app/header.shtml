@@ -80,7 +80,7 @@
                   <a href="#" class="menu-item__link menu-item__link--sp" title="title" data-role="touch-submenu-deployer">Educación continua</a>
                 </li>
                 <li class="menu-item">
-                  <a href="#" class="menu-item__link menu-item__link--sp" title="title" data-role="touch-submenu-deployer">Contacto</a>
+                  <a href="contacto.shtml" class="menu-item__link menu-item__link--sp" title="title" data-role="touch-submenu-deployer">Contacto</a>
                 </li>
 
                 <li class="menu-item menu-item__search menu-item__hide">

@@ -1,0 +1,98 @@
+<!--#include file="header.shtml" -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul class="list-inline list-inline--min-margin">
+                <li class="breadcrumbs__item">
+                    <span class="icon-elem icon-elem--home"></span>
+                    <a href="index.html" class="breadcrumbs__link">Inicio</a></li>
+                <li>
+                    <span class="icon-elem icon-elem--chevron_right"></span>
+                </li>
+                <li  class="breadcrumbs__item breadcrumbs__item--current">
+                    <a href="#" class="breadcrumbs__link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <main>
+        <section class="main main-contacto">
+            <div class="main-contacto__veil"></div>
+            <div class="main-contacto__content">
+                <div class="container">
+                    <div class="gridle-row">
+                        <div class="gridle-gr-8 gridle-prefix-2 gridle-gr-12@tablet gridle-prefix-0@tablet">
+                            <div class="main-contacto__content__holder">
+                                <p class="font-centered">¿Tienes dudas?</p>
+                                <h2 class="font-centered common-box__title--tallest common-box__title--serif padd-top">Contáctenos</h2>
+                                <form action="" class="gridle-row" data-module="common-form" data-validizr-handled="true">
+                                    <div class="gridle-gr-6 gridle-gr-12@tablet">
+                                        <div class="form-control" data-error-message="Mensaje de error">
+                                            <label for="nombre" class="form-control__label">Nombre <span>*</span></label>
+                                            <input type="text" class="form-control__field" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido" data-custom-validation="onlyString" required>
+                                            <span class="form-control__msg">Sólo valores alfabéticos. <b>Ej: Juán Pérez</b></span>
+                                        </div>
+                                    </div>
+                                    <div class="gridle-gr-6 gridle-gr-12@tablet">
+                                        <div class="form-control" data-error-message="Mensaje de error">
+                                            <label for="email" class="form-control__label">Email <span>*</span></label>
+                                            <input type="email" class="form-control__field" name="email" id="email" placeholder="Ingrese su email" required>
+                                            <span class="form-control__msg">Debe contener el valor @. <b>Ej: juanperez@mail.com</b></span>
+                                        </div>
+                                    </div>
+                                    <div class="gridle-gr-12">
+                                        <div class="form-control" data-error-message="Mensaje de error">
+                                            <label for="asunto" class="form-control__label">Asunto <span>*</span></label>
+                                            <input type="text" class="form-control__field" name="asunto" id="asunto" placeholder="Ingrese el motivo de su contacto" data-custom-validation="onlyString">
+                                            <span class="form-control__msg">Las palabras clave o motivos del contacto</span>
+                                        </div>
+                                    </div>
+                                    <div class="gridle-gr-12">
+                                        <div class="form-control" data-error-message="Mensaje de error">
+                                            <label for="mensaje" class="form-control__label">Mensaje <span>*</span></label>
+                                            <textarea class="form-control__field" name="mensaje" id="mensaje" placeholder="Escriba su mensaje" rows="10"></textarea>
+                                            <span class="form-control__msg">Máximo de 300 caracteres</span>
+                                        </div>
+                                    </div>
+                                    <div class="gridle-gr-12 font-centered">
+                                        <button type="submit" class="button button--blue button--blue--wide">Contactar</button>
+                                    </div>
+                                    <div class="gridle-gr-12 no-padding">
+                                        <span class="form-control__msg">* Todos los campos sin obligatorios.</span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="full-iframe">
+            <div class="gridle-row">
+                <div class="gridle-gr-12 no-padding">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.6704175856466!2d-71.54160528481198!3d-33.01246368090157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dddad95101c9%3A0x1dd128cfe450ec0a!2sCampus+Sausalito+PUCV!5e0!3m2!1ses!2scl!4v1491848259869" height="450" frameborder="0" style="border:0" scrolling="no" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon-media">
+            <div class="container">
+                <div class="gridle-row">
+                    <div class="gridle-gr-4 gridle-gr-12@tablet font-centered">
+                        <p><i class="icon-elem icon-elem--mlight icon-elem--big icon-elem--phone"></i></p>
+                        <p class="common-box__meta">+56 9 1234 5678</p>
+                    </div>
+                    <div class="gridle-gr-4 gridle-gr-12@tablet font-centered">
+                        <p><i class="icon-elem icon-elem--mlight icon-elem--big icon-elem--place"></i></p>
+                        <p class="common-box__meta">Av. El bosque 1290 Campus sausalito</p>
+                    </div>
+                    <div class="gridle-gr-4 gridle-gr-12@tablet font-centered">
+                        <p><i class="icon-elem icon-elem--mlight icon-elem--big icon-elem--mail_outline"></i></p>
+                        <p class="common-box__meta">castellano@ucv.cl</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!--#include file="footer.shtml" -->
