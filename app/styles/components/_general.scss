@@ -1671,6 +1671,11 @@ aside{
 .relacionadas-academicos{
   article{
     border-top: none;
+
+    .common-box__meta{
+      text-transform: capitalize;
+      font-size: 14px;
+    }
   }
 }
 .b-bottom{
