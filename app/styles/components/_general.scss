@@ -13,6 +13,10 @@ body{
       align-items: flex-start;
       border-radius: 0 0 10px 10px;
       height: 10rem;
+      @include media (large-down){
+        margin-top: -60px;
+        border-radius: 0;
+      }
         .app-brand{
             padding: 26px 14px 19px 14px;
             overflow: hidden;
@@ -351,13 +355,21 @@ body{
         }
     }
     .menu-up{
+      font-family: 'Arial';
+      font-weight: 400;
       background: $color_main_regular;
       border-radius: 0  0 10px 0;
       display: flex;
       justify-content: flex-end;
+      @include media (large-down){
+          display: block;
+      }
 
       &--left{
         margin-right: 1.5rem;
+        @include media (large-down){
+            margin-right: 0;
+        }
 
         a:hover{
           background-color: transparent;
@@ -369,13 +381,22 @@ body{
         background-color: $color_main_light;
         border-radius: 0  0 10px 0;
         padding: 0 25px;
+        @include media (large-down){
+            padding: 0;
+        }
+
       }
 
       .menu-item{
+        @include media (large-down){
+            padding: 1rem;
+        }
         a{
           font-size: map-get($text_sizes, ten);
           color: #FCD900;
-          letter-spacing: 0.5px;
+          letter-spacing: 0.5px;@include media (large-down){
+            font-size: 15px;
+          }
         }&:hover{
           background-color: transparent;
         }
@@ -388,10 +409,15 @@ body{
         }
 
         &--has-submenu{
+
           &:after{
             font-size: map-get($text_sizes, regular);
             right: -16px;
             color: $color_white;
+            @include media (large-down){
+                font-size: 21px;
+                right: 0;
+            }
           }
 
           .submenu__item{
@@ -401,6 +427,7 @@ body{
           }
         }
       }
+
     }
     &__deploy-button{
         top: 0;
@@ -1701,4 +1728,9 @@ a{
   .common-box{
     padding: 24px;
   }
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Signika"!important;
 }
