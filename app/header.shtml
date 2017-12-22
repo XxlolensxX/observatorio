@@ -37,7 +37,7 @@
                       <li class="submenu__item"><a title="ejemplo" href="portadilla.shtml">Portada Chi,Lat,Inv</a></li>
                       <li class="submenu__item"><a title="ejemplo" href="single-enfermedad.shtml">Ficha Enf</a></li>
                       <li class="submenu__item"><a title="ejemplo" href="single-investigacion.shtml">Ficha Inv</a></li>
-                      <li class="submenu__item"><a title="ejemplo" href="page.shtml">Ficha Inv</a></li>
+                      <li class="submenu__item"><a title="ejemplo" href="page.shtml">Page</a></li>
                     </ul>
                   </li>
                   <li class="menu-item menu-item--has-submenu">
