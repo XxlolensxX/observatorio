@@ -1,7 +1,7 @@
 <!--#include file="header.shtml" -->
 
   <main>
-    <section class="main main-full main-full--max main-full--ghost" style="background-image: url(../images/img/portada_epi.png)">
+    <section class="main main-full main-full--max main-full--ghost" style="background-image: url(images/img/portada_epi.png)">
         <div class="gridle-row">
             <div class="gridle-gr-12 no-padding">
                 <div class="main-full__body main-full__body--mod main">
