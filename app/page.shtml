@@ -95,6 +95,12 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum amet aspernatur qui alias nemo
                             earum, ut ullam vero corrupti, culpa, reprehenderit consectetur nam reiciendis unde perspiciatis
                             hic quidem laborum.</p>
+                        <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum amet aspernatur qui alias nemo
+                            earum, ut ullam vero corrupti, culpa, reprehenderit consectetur nam reiciendis unde perspiciatis
+                            hic quidem laborum.</a></p>
+                        <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum amet aspernatur qui alias nemo
+                            earum, ut ullam vero corrupti, culpa, reprehenderit consectetur nam reiciendis unde perspiciatis
+                            hic quidem laborum.</em></p>
                         <h2>Cooperación internacional</h2>
                         <figure class="black-box">
                             <img src="https://placehold.it/900x400" class="cover-img" alt="titulo" />
